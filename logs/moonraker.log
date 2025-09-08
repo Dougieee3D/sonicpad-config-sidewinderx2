@@ -6638,3 +6638,619 @@ Printer is halted
 2025-09-08 18:53:38,025 [websockets.py:open()] - Websocket Opened: ID: 4071979544, Proxied: False, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0, Host Name: 192.168.1.14
 2025-09-08 18:53:38,031 [websockets.py:_handle_identify()] - Websocket 4071979544 Client Identified - Name: fluidd, Version: 1.34.4-564242b, Type: web
 2025-09-08 18:53:38,033 [file_manager.py:get_file_list()] - Updating File List <config>...
+2025-09-08 18:57:40,283 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2025-09-08 19:00:24,774 [application.py:prepare()] - Upload Request Received from 192.168.1.5
+Content-Type: 
+2025-09-08 19:00:24,790 [application.py:prepare()] - Upload Request Received from 192.168.1.5
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary0XEIAuVZudxLLq6z
+2025-09-08 19:00:24,805 [application.py:post()] - Processing Uploaded File: moonraker.conf
+2025-09-08 19:00:24,815 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.5) [_TRUSTED_USER_] 26.20ms
+2025-09-08 19:00:24,934 [websockets.py:on_close()] - Websocket Closed: ID: 4082295040 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 1.82
+2025-09-08 19:00:24,936 [websockets.py:on_close()] - Websocket Closed: ID: 4072019472 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 18.83
+2025-09-08 19:00:24,940 [websockets.py:on_close()] - Websocket Closed: ID: 4071933240 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 6.24
+2025-09-08 19:00:24,942 [websockets.py:on_close()] - Websocket Closed: ID: 4082484560 Close Code: 1001, Close Reason: Server Shutdown, Pong Time Elapsed: 28.85
+2025-09-08 19:00:24,943 [websockets.py:on_close()] - Websocket Closed: ID: 4082483432 Close Code: 1001, Close Reason: Server Shutdown, Pong Time Elapsed: 1.23
+2025-09-08 19:00:24,945 [websockets.py:on_close()] - Websocket Closed: ID: 4071933888 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 6.25
+2025-09-08 19:00:24,950 [websockets.py:write_to_socket()] - Websocket closed while writing: 4071935184
+2025-09-08 19:00:24,951 [websockets.py:write_to_socket()] - Websocket closed while writing: 4071979544
+2025-09-08 19:00:24,953 [websockets.py:on_close()] - Websocket Closed: ID: 4071979544 Close Code: 1001, Close Reason: Server Shutdown, Pong Time Elapsed: 6.86
+2025-09-08 19:00:24,955 [websockets.py:on_close()] - Websocket Closed: ID: 4071935184 Close Code: 1001, Close Reason: Server Shutdown, Pong Time Elapsed: 7.24
+2025-09-08 19:00:24,959 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2025-09-08 19:00:25,513 [server.py:main()] - Attempting Server Restart...
+2025-09-08 19:00:25,534 [confighelper.py:read_file()] - Configuration File '/home/sonic/printer_data/config/moonraker.conf' parsed, total size: 3903 B
+2025-09-08 19:00:25,536 [server.py:add_log_rollover_item()] - 
+#################### Moonraker Configuration ####################
+
+[server]
+host = 0.0.0.0
+port = 7125
+klippy_uds_address = /home/sonic/printer_data/comms/klippy.sock
+
+[authorization]
+trusted_clients = 
+	172.22.0.0/16
+	10.0.0.0/8
+	127.0.0.0/8
+	169.254.0.0/16
+	172.16.0.0/12
+	192.168.0.0/16
+	FE80::/10
+	::1/128
+cors_domains = 
+	*.lan
+	*.local
+	*://localhost
+	*://localhost:*
+	*://my.mainsail.xyz
+	*://app.fluidd.xyz
+
+[octoprint_compat]
+
+[history]
+
+[update_manager]
+refresh_interval = 168
+enable_auto_refresh = True
+
+[update_manager KlipperScreen]
+type = git_repo
+path = /home/sonic/KlipperScreen
+origin = https://github.com/jordanruthe/KlipperScreen.git
+env = /home/sonic/.KlipperScreen-env/bin/python
+requirements = scripts/KlipperScreen-requirements.txt
+install_script = scripts/KlipperScreen-install.sh
+
+[update_manager timelapse]
+type = git_repo
+primary_branch = main
+path = /home/sonic/moonraker-timelapse
+origin = https://github.com/mainsail-crew/moonraker-timelapse.git
+managed_services = moonraker
+
+[update_manager octoeverywhere]
+type = git_repo
+channel = beta
+path = /home/sonic/octoeverywhere
+origin = https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git
+env = /home/sonic/octoeverywhere-env/bin/python
+requirements = requirements.txt
+install_script = install.sh
+managed_services = 
+	octoeverywhere
+
+[announcements]
+subscriptions = 
+	octoapp.
+
+[update_manager octoapp]
+type = git_repo
+channel = beta
+primary_branch = release
+path = /home/sonic/octoapp
+origin = https://github.com/crysxd/OctoApp-Plugin.git
+env = /home/sonic/octoapp-env/bin/python
+requirements = requirements.txt
+install_script = install.sh
+managed_services = 
+	octoapp
+
+[update_manager moonraker-obico]
+type = git_repo
+path = /home/sonic/moonraker-obico
+origin = https://github.com/TheSpaghettiDetective/moonraker-obico.git
+env = /home/sonic/moonraker-obico/../moonraker-obico-env/bin/python
+requirements = requirements.txt
+install_script = install.sh
+managed_services = 
+	moonraker-obico
+
+[update_manager crowsnest]
+type = git_repo
+path = ~/crowsnest
+origin = https://github.com/mainsail-crew/crowsnest.git
+managed_services = crowsnest
+install_script = tools/pkglist.sh
+
+[timelapse]
+output_path = /home/sonic/printer_data/timelapse
+frame_path = /home/sonic/printer_data/timelapse/frames
+
+[update_manager fluidd-config]
+type = git_repo
+primary_branch = master
+path = ~/fluidd-config
+origin = https://github.com/fluidd-core/fluidd-config.git
+managed_services = klipper
+
+[update_manager fluidd]
+type = web
+channel = stable
+repo = fluidd-core/fluidd
+path = ~/fluidd
+
+[update_manager klipper-backup]
+type = git_repo
+path = ~/klipper-backup
+origin = https://github.com/Staubgeborener/klipper-backup.git
+managed_services = moonraker
+primary_branch = main
+
+#################################################################
+All Configuration Files:
+/home/sonic/printer_data/config/moonraker.conf
+/home/sonic/printer_data/config/octoeverywhere-system.cfg
+/home/sonic/printer_data/config/octoapp-system.cfg
+/home/sonic/printer_data/config/moonraker-obico-update.cfg
+#################################################################
+2025-09-08 19:00:25,541 [server.py:load_component()] - Component (secrets) loaded
+2025-09-08 19:00:25,541 [server.py:load_component()] - Component (template) loaded
+2025-09-08 19:00:25,548 [server.py:load_component()] - Component (klippy_connection) loaded
+2025-09-08 19:00:25,552 [application.py:__init__()] - Detected Tornado Version 6.5.1
+2025-09-08 19:00:25,554 [server.py:load_component()] - Component (application) loaded
+2025-09-08 19:00:25,555 [server.py:load_component()] - Component (websockets) loaded
+2025-09-08 19:00:25,561 [server.py:add_log_rollover_item()] - Loading Sqlite database provider. Sqlite Version: 3.34.1
+2025-09-08 19:00:25,579 [server.py:add_log_rollover_item()] - Unsafe Shutdown Count: 20
+2025-09-08 19:00:25,583 [server.py:load_component()] - Component (database) loaded
+2025-09-08 19:00:25,585 [server.py:load_component()] - Component (dbus_manager) loaded
+2025-09-08 19:00:25,591 [file_manager.py:__init__()] - Using File System Observer: inotify
+2025-09-08 19:00:25,624 [server.py:load_component()] - Component (file_manager) loaded
+2025-09-08 19:00:25,625 [database.py:register_table()] - Found registered table authorized_users
+2025-09-08 19:00:25,628 [authorization.py:__init__()] - Authorization Configuration Loaded
+Trusted Clients:
+172.22.0.0/16
+10.0.0.0/8
+127.0.0.0/8
+169.254.0.0/16
+172.16.0.0/12
+192.168.0.0/16
+fe80::/10
+::1/128
+CORS Domains:
+.*\.lan
+.*\.local
+.*://localhost
+.*://localhost:.*
+.*://my\.mainsail\.xyz
+.*://app\.fluidd\.xyz
+2025-09-08 19:00:25,631 [server.py:load_component()] - Component (authorization) loaded
+2025-09-08 19:00:25,632 [server.py:load_component()] - Component (klippy_apis) loaded
+2025-09-08 19:00:25,677 [server.py:add_log_rollover_item()] - 
+System Info:
+
+***python***
+  version: (3, 9, 2, 'final', 0)
+  version_string: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+
+***cpu_info***
+  cpu_count: 4
+  bits: 32bit
+  processor: aarch64
+  cpu_desc: ARMv8 Processor rev 4 (v8l)
+  serial_number: 
+  hardware_desc: T800
+  model: sonic_lcd
+  total_memory: 2030728
+  memory_units: kB
+
+***sd_info***
+  manufacturer_id: 45
+  manufacturer: Unknown
+  oem_id: 0100
+  product_name: DG400
+  product_revision: 3.8
+  serial_number: 0127ea95
+  manufacturer_date: 9/2123
+  capacity: Unknown
+  total_bytes: 0
+
+***distribution***
+  name: Debian GNU/Linux 11 (bullseye)
+  id: debian
+  version: 11
+  version_parts: {'major': '11', 'minor': '', 'build_number': ''}
+  like: 
+  codename: bullseye
+  release_info: {}
+  kernel_version: 4.9.191
+
+***virtualization***
+  virt_type: none
+  virt_identifier: none
+
+***network***
+
+***canbus***
+
+***Allowed Services***
+  klipper_mcu
+  webcamd
+  MoonCord
+  KlipperScreen
+  moonraker-telegram-bot
+  moonraker-obico
+  sonar
+  crowsnest
+  octoeverywhere
+  ratos-configurator
+  octoapp
+2025-09-08 19:00:25,677 [server.py:load_component()] - Component (shell_command) loaded
+2025-09-08 19:00:25,678 [machine.py:__init__()] - Using System Provider: systemd_dbus
+2025-09-08 19:00:25,685 [server.py:add_log_rollover_item()] - Module libcamera unavailable, import failed
+2025-09-08 19:00:25,686 [server.py:load_component()] - Component (machine) loaded
+2025-09-08 19:00:25,687 [server.py:load_component()] - Component (data_store) loaded
+2025-09-08 19:00:25,688 [proc_stats.py:__init__()] - Unable to find 'vcgencmd', throttle checking disabled
+2025-09-08 19:00:25,689 [server.py:load_component()] - Component (proc_stats) loaded
+2025-09-08 19:00:25,690 [server.py:load_component()] - Component (job_state) loaded
+2025-09-08 19:00:25,694 [server.py:load_component()] - Component (job_queue) loaded
+2025-09-08 19:00:25,695 [database.py:register_table()] - Found registered table job_history
+2025-09-08 19:00:25,696 [database.py:register_table()] - Found registered table job_totals
+2025-09-08 19:00:25,700 [server.py:load_component()] - Component (history) loaded
+2025-09-08 19:00:25,701 [server.py:load_component()] - Component (http_client) loaded
+2025-09-08 19:00:25,704 [server.py:load_component()] - Component (announcements) loaded
+2025-09-08 19:00:25,707 [server.py:load_component()] - Component (webcam) loaded
+2025-09-08 19:00:25,708 [server.py:load_component()] - Component (extensions) loaded
+2025-09-08 19:00:25,717 [server.py:load_component()] - Component (timelapse) loaded
+2025-09-08 19:00:25,723 [base_deploy.py:log_info()] - Git Repo moonraker: Detected virtualenv: /home/sonic/moonraker-env
+2025-09-08 19:00:25,728 [base_deploy.py:log_info()] - Git Repo klipper: Detected virtualenv: /home/sonic/klippy-env
+2025-09-08 19:00:25,732 [base_deploy.py:log_info()] - Git Repo KlipperScreen: Option 'env' is deprecated, use 'virtualenv' instead.
+2025-09-08 19:00:25,734 [base_deploy.py:log_info()] - Git Repo KlipperScreen: Detected virtualenv: /home/sonic/.KlipperScreen-env
+2025-09-08 19:00:25,741 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Option 'env' is deprecated, use 'virtualenv' instead.
+2025-09-08 19:00:25,742 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Detected virtualenv: /home/sonic/octoeverywhere-env
+2025-09-08 19:00:25,747 [base_deploy.py:log_info()] - Git Repo octoapp: Option 'env' is deprecated, use 'virtualenv' instead.
+2025-09-08 19:00:25,749 [base_deploy.py:log_info()] - Git Repo octoapp: Detected virtualenv: /home/sonic/octoapp-env
+2025-09-08 19:00:25,753 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Option 'env' is deprecated, use 'virtualenv' instead.
+2025-09-08 19:00:25,755 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Detected virtualenv: /home/sonic/moonraker-obico-env
+2025-09-08 19:00:25,771 [server.py:load_component()] - Component (update_manager) loaded
+2025-09-08 19:00:25,774 [server.py:load_component()] - Component (octoprint_compat) loaded
+2025-09-08 19:00:25,777 [server.py:_initialize_component()] - Performing Component Post Init: [database]
+2025-09-08 19:00:25,800 [server.py:_initialize_component()] - Performing Component Post Init: [dbus_manager]
+2025-09-08 19:00:25,816 [server.py:_initialize_component()] - Performing Component Post Init: [authorization]
+2025-09-08 19:00:25,821 [server.py:_initialize_component()] - Performing Component Post Init: [machine]
+2025-09-08 19:00:25,824 [machine.py:validation_init()] - Installation version in database up to date
+2025-09-08 19:00:26,378 [machine.py:check_virt_status()] - No Virtualization Detected
+2025-09-08 19:00:26,402 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.14
+2025-09-08 19:00:26,405 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.14
+2025-09-08 19:00:26,495 [server.py:add_log_rollover_item()] - 
+Systemd unit moonraker.service:
+unit_name: moonraker.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['sysinit.target', '-.mount', 'system.slice', 'network-online.target']
+**After=['system.slice', '-.mount', 'basic.target', 'network-online.target', 'systemd-journald.socket', 'sysinit.target']
+**SupplementaryGroups=['moonraker-admin']
+**EnvironmentFiles=/home/sonic/printer_data/systemd/moonraker.env
+**ExecStart=/home/sonic/moonraker-env/bin/python $MOONRAKER_ARGS
+**WorkingDirectory=/home/sonic/moonraker
+**FragmentPath=/etc/systemd/system/moonraker.service
+**Description=API Server for Klipper SV1
+**User=sonic
+2025-09-08 19:00:26,496 [server.py:_initialize_component()] - Performing Component Post Init: [proc_stats]
+2025-09-08 19:00:26,496 [server.py:_initialize_component()] - Performing Component Post Init: [history]
+2025-09-08 19:00:26,510 [server.py:_initialize_component()] - Performing Component Post Init: [announcements]
+2025-09-08 19:00:26,540 [server.py:_initialize_component()] - Performing Component Post Init: [webcam]
+2025-09-08 19:00:26,540 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.14
+2025-09-08 19:00:26,545 [server.py:_initialize_component()] - Performing Component Post Init: [klippy_connection]
+2025-09-08 19:00:26,545 [server.py:add_log_rollover_item()] - 
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['sysinit.target', 'system.slice', '-.mount']
+**After=['systemd-journald.socket', 'sysinit.target', 'basic.target', '-.mount', 'network-online.target', 'system.slice']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/sonic/printer_data/systemd/klipper.env
+**ExecStart=/home/sonic/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/sonic/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=sonic
+2025-09-08 19:00:26,545 [server.py:_initialize_component()] - Performing Component Post Init: [timelapse]
+2025-09-08 19:00:26,546 [timelapse.py:parseWebcamConfig()] - snapshoturl: http://192.168.1.14:8081/snapshot, Flip V/H: False/False, rotation: 0
+2025-09-08 19:00:26,546 [server.py:_initialize_component()] - Performing Component Post Init: [update_manager]
+2025-09-08 19:00:26,598 [base_deploy.py:log_info()] - PackageDeploy: PackageKit Provider Configured
+2025-09-08 19:00:26,606 [git_deploy.py:log_repo_info()] - Git Repo moonraker Detected:
+Owner: Arksine
+Repository Name: moonraker
+Path: /home/sonic/moonraker
+Remote: origin
+Branch: master
+Remote URL: https://github.com/Arksine/moonraker.git
+Recovery URL: https://github.com/Arksine/moonraker.git
+Current Commit SHA: 52e315868bd8c75f08d5994e3b959fbb53b100be
+Upstream Commit SHA: 52e315868bd8c75f08d5994e3b959fbb53b100be
+Current Version: v0.9.3-104-g52e31586
+Upstream Version: v0.9.3-104-g52e31586
+Rollback Commit: f20feff6c67884ff1253414506c43222e04c0460
+Rollback Branch: master
+Rollback Version: v0.9.3-102-gf20feff6
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+Repo Warnings:
+  Repo has untracked source files: ['moonraker/components/timelapse.py']
+2025-09-08 19:00:26,610 [git_deploy.py:log_repo_info()] - Git Repo klipper Detected:
+Owner: Klipper3d
+Repository Name: klipper
+Path: /home/sonic/klipper
+Remote: origin
+Branch: master
+Remote URL: https://github.com/Klipper3d/klipper.git
+Recovery URL: https://github.com/Klipper3d/klipper.git
+Current Commit SHA: 68b67a16d6d7f006ac165419f5dddae16a970dd7
+Upstream Commit SHA: 68b67a16d6d7f006ac165419f5dddae16a970dd7
+Current Version: v0.13.0-252-g68b67a16
+Upstream Version: v0.13.0-252-g68b67a16
+Rollback Commit: 20d9c84a9f78f418da3b098147002a8edff02dda
+Rollback Branch: master
+Rollback Version: v0.13.0-233-g20d9c84a
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2025-09-08 19:00:26,611 [base_deploy.py:log_info()] - Git Repo KlipperScreen: Stored pip version: 23.3.2
+2025-09-08 19:00:26,613 [git_deploy.py:log_repo_info()] - Git Repo KlipperScreen Detected:
+Owner: jordanruthe
+Repository Name: KlipperScreen
+Path: /home/sonic/KlipperScreen
+Remote: origin
+Branch: master
+Remote URL: https://github.com/jordanruthe/KlipperScreen.git
+Recovery URL: https://github.com/jordanruthe/KlipperScreen.git
+Current Commit SHA: 6b6f63b6639e5b85a2b3f4b0b0cd7677ac9cda3d
+Upstream Commit SHA: 6b6f63b6639e5b85a2b3f4b0b0cd7677ac9cda3d
+Current Version: v0.4.6-11-g6b6f63b6
+Upstream Version: v0.4.6-11-g6b6f63b6
+Rollback Commit: 2c778cce7f67a7d1c4f156c5854537bc442ed0da
+Rollback Branch: master
+Rollback Version: v0.3.9-11-g2c778cce
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2025-09-08 19:00:26,617 [git_deploy.py:log_repo_info()] - Git Repo timelapse Detected:
+Owner: mainsail-crew
+Repository Name: moonraker-timelapse
+Path: /home/sonic/moonraker-timelapse
+Remote: origin
+Branch: main
+Remote URL: https://github.com/mainsail-crew/moonraker-timelapse.git
+Recovery URL: https://github.com/mainsail-crew/moonraker-timelapse.git
+Current Commit SHA: c7fff11e542b95e0e15b8bb1443cea8159ac0274
+Upstream Commit SHA: c7fff11e542b95e0e15b8bb1443cea8159ac0274
+Current Version: v0.0.1-143-gc7fff11e
+Upstream Version: v0.0.1-143-gc7fff11e
+Rollback Commit: c7fff11e542b95e0e15b8bb1443cea8159ac0274
+Rollback Branch: main
+Rollback Version: v0.0.1-143-gc7fff11e
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2025-09-08 19:00:26,624 [git_deploy.py:log_repo_info()] - Git Repo octoeverywhere Detected:
+Owner: QuinnDamerell
+Repository Name: OctoPrint-OctoEverywhere
+Path: /home/sonic/octoeverywhere
+Remote: origin
+Branch: master
+Remote URL: https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git
+Recovery URL: https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git
+Current Commit SHA: f08fa1090a2ffcdbcb1215ae40e7de324f864d5a
+Upstream Commit SHA: f08fa1090a2ffcdbcb1215ae40e7de324f864d5a
+Current Version: 4.3.13-5-gf08fa109
+Upstream Version: 4.3.13-5-gf08fa109
+Rollback Commit: 258bb01f3bb49574c5dac650b3d780e4f79de5a5
+Rollback Branch: master
+Rollback Version: 4.3.13-0-g258bb01f
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2025-09-08 19:00:26,628 [git_deploy.py:log_repo_info()] - Git Repo octoapp Detected:
+Owner: crysxd
+Repository Name: OctoApp-Plugin
+Path: /home/sonic/octoapp
+Remote: origin
+Branch: release
+Remote URL: https://github.com/crysxd/OctoApp-Plugin.git
+Recovery URL: https://github.com/crysxd/OctoApp-Plugin.git
+Current Commit SHA: 98c8f4bc0414428d160c9c4b08786dbc3384c21a
+Upstream Commit SHA: 98c8f4bc0414428d160c9c4b08786dbc3384c21a
+Current Version: 3.0.1-0-g98c8f4bc
+Upstream Version: 3.0.1
+Rollback Commit: 98c8f4bc0414428d160c9c4b08786dbc3384c21a
+Rollback Branch: release
+Rollback Version: 3.0.1-0-g98c8f4bc
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2025-09-08 19:00:26,634 [git_deploy.py:log_repo_info()] - Git Repo moonraker-obico Detected:
+Owner: TheSpaghettiDetective
+Repository Name: moonraker-obico
+Path: /home/sonic/moonraker-obico
+Remote: origin
+Branch: master
+Remote URL: https://github.com/TheSpaghettiDetective/moonraker-obico.git
+Recovery URL: https://github.com/TheSpaghettiDetective/moonraker-obico.git
+Current Commit SHA: 1d0649506724be8d63888d7aa63b9f6b342907b3
+Upstream Commit SHA: 1d0649506724be8d63888d7aa63b9f6b342907b3
+Current Version: v2.1.0-1-g1d064950
+Upstream Version: v2.1.0-1-g1d064950
+Rollback Commit: 1d0649506724be8d63888d7aa63b9f6b342907b3
+Rollback Branch: master
+Rollback Version: v2.1.0-1-g1d064950
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2025-09-08 19:00:26,641 [git_deploy.py:log_repo_info()] - Git Repo crowsnest Detected:
+Owner: mainsail-crew
+Repository Name: crowsnest
+Path: /home/sonic/crowsnest
+Remote: origin
+Branch: master
+Remote URL: https://github.com/mainsail-crew/crowsnest.git
+Recovery URL: https://github.com/mainsail-crew/crowsnest.git
+Current Commit SHA: 059fa8775f60503f7aca4bb4812795997b35b142
+Upstream Commit SHA: 059fa8775f60503f7aca4bb4812795997b35b142
+Current Version: v4.1.16-1-g059fa877
+Upstream Version: v4.1.16-1-g059fa877
+Rollback Commit: 059fa8775f60503f7aca4bb4812795997b35b142
+Rollback Branch: master
+Rollback Version: v4.1.16-1-g059fa877
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2025-09-08 19:00:26,644 [git_deploy.py:log_repo_info()] - Git Repo fluidd-config Detected:
+Owner: fluidd-core
+Repository Name: fluidd-config
+Path: /home/sonic/fluidd-config
+Remote: origin
+Branch: master
+Remote URL: https://github.com/fluidd-core/fluidd-config.git
+Recovery URL: https://github.com/fluidd-core/fluidd-config.git
+Current Commit SHA: 807175d72e3a00cdc6b5e249444a4630e1e03a55
+Upstream Commit SHA: 807175d72e3a00cdc6b5e249444a4630e1e03a55
+Current Version: v1.2.1-0-g807175d7
+Upstream Version: v1.2.1-0-g807175d7
+Rollback Commit: 807175d72e3a00cdc6b5e249444a4630e1e03a55
+Rollback Branch: master
+Rollback Version: v1.2.1-0-g807175d7
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2025-09-08 19:00:26,652 [base_deploy.py:log_info()] - Web Client fluidd: Detected
+Repo: fluidd-core/fluidd
+Channel: stable
+Path: /home/sonic/fluidd
+Local Version: v1.34.4
+Remote Version: v1.34.4
+Valid: True
+Fallback Detected: False
+Pre-release: False
+Download Url: https://github.com/fluidd-core/fluidd/releases/download/v1.34.4/fluidd.zip
+Download Size: 4368214
+Content Type: application/zip
+Rollback Version: v1.34.4
+Rollback Repo: fluidd-core/fluidd
+2025-09-08 19:00:26,664 [git_deploy.py:log_repo_info()] - Git Repo klipper-backup Detected:
+Owner: Staubgeborener
+Repository Name: klipper-backup
+Path: /home/sonic/klipper-backup
+Remote: origin
+Branch: main
+Remote URL: https://github.com/Staubgeborener/klipper-backup.git
+Recovery URL: https://github.com/Staubgeborener/klipper-backup.git
+Current Commit SHA: 3c640c372093731fb661f0b3024832319c209d4a
+Upstream Commit SHA: 3c640c372093731fb661f0b3024832319c209d4a
+Current Version: v1.3.4-0-g3c640c37
+Upstream Version: v1.3.4-0-g3c640c37
+Rollback Commit: 3c640c372093731fb661f0b3024832319c209d4a
+Rollback Branch: main
+Rollback Version: v1.3.4-0-g3c640c37
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2025-09-08 19:00:26,811 [base_deploy.py:log_info()] - PackageKit: Next refresh in: 4 Days, 22 Hours, 42 Minutes, 47 Seconds
+2025-09-08 19:00:26,812 [base_deploy.py:log_info()] - Git Repo moonraker: Next refresh in: 4 Days, 22 Hours, 42 Minutes, 48 Seconds
+2025-09-08 19:00:26,812 [base_deploy.py:log_info()] - Git Repo klipper: Next refresh in: 4 Days, 22 Hours, 43 Minutes, 10 Seconds
+2025-09-08 19:00:26,812 [base_deploy.py:log_info()] - Git Repo KlipperScreen: Next refresh in: 4 Days, 22 Hours, 42 Minutes, 51 Seconds
+2025-09-08 19:00:26,812 [base_deploy.py:log_info()] - Git Repo timelapse: Next refresh in: 4 Days, 22 Hours, 42 Minutes, 52 Seconds
+2025-09-08 19:00:26,812 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Next refresh in: 4 Days, 22 Hours, 42 Minutes, 53 Seconds
+2025-09-08 19:00:26,812 [base_deploy.py:log_info()] - Git Repo octoapp: Next refresh in: 4 Days, 22 Hours, 42 Minutes, 55 Seconds
+2025-09-08 19:00:26,812 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Next refresh in: 4 Days, 22 Hours, 42 Minutes, 56 Seconds
+2025-09-08 19:00:26,812 [base_deploy.py:log_info()] - Git Repo crowsnest: Next refresh in: 4 Days, 22 Hours, 42 Minutes, 57 Seconds
+2025-09-08 19:00:26,813 [base_deploy.py:log_info()] - Git Repo fluidd-config: Next refresh in: 4 Days, 22 Hours, 42 Minutes, 58 Seconds
+2025-09-08 19:00:26,813 [base_deploy.py:log_info()] - Web Client fluidd: Next refresh in: 4 Days, 22 Hours, 42 Minutes, 59 Seconds
+2025-09-08 19:00:26,813 [base_deploy.py:log_info()] - Git Repo klipper-backup: Next refresh in: 5 Days, 10 Hours, 54 Minutes, 25 Seconds
+2025-09-08 19:00:26,823 [confighelper.py:create_backup()] - Backing up last working configuration to '/home/sonic/printer_data/config/.moonraker.conf.bkp'
+2025-09-08 19:00:26,831 [extensions.py:start_unix_server()] - Creating Unix Domain Socket at '/home/sonic/printer_data/comms/moonraker.sock'
+2025-09-08 19:00:26,834 [server.py:start_server()] - Starting Moonraker on (0.0.0.0, 7125), Hostname: SonicPad
+2025-09-08 19:00:26,835 [application.py:listen()] - SSL Certificate/Key not configured, aborting HTTPS Server startup
+2025-09-08 19:00:26,951 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2025-09-08 19:00:26,953 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 3.78ms
+2025-09-08 19:00:26,954 [websockets.py:open()] - Websocket Opened: ID: 4101745488, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2025-09-08 19:00:26,962 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 4.32ms
+2025-09-08 19:00:26,963 [websockets.py:open()] - Websocket Opened: ID: 4082782416, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2025-09-08 19:00:26,969 [websockets.py:_handle_identify()] - Websocket 4101745488 Client Identified - Name: OctoApp, Version: 3.0.1, Type: agent
+2025-09-08 19:00:26,973 [websockets.py:_handle_identify()] - Websocket 4082782416 Client Identified - Name: OctoEverywhere, Version: 4.3.13, Type: agent
+2025-09-08 19:00:26,994 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.5
+2025-09-08 19:00:27,009 [application.py:log_request()] - 101 GET /websocket?token=M6TOE3SUHPSCOPW6G2JUUWUGCLNMYMGQ (192.168.1.5) [_TRUSTED_USER_] 3.18ms
+2025-09-08 19:00:27,009 [websockets.py:open()] - Websocket Opened: ID: 4082785800, Proxied: False, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0, Host Name: 192.168.1.14
+2025-09-08 19:00:27,015 [websockets.py:_handle_identify()] - Websocket 4082785800 Client Identified - Name: fluidd, Version: 1.34.4-564242b, Type: web
+2025-09-08 19:00:27,016 [file_manager.py:get_file_list()] - Updating File List <config>...
+2025-09-08 19:00:27,153 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2025-09-08 19:00:27,160 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: -32601, Message: Method not found
+2025-09-08 19:00:27,276 [server.py:add_log_rollover_item()] - 
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['sysinit.target', 'system.slice', '-.mount']
+**After=['-.mount', 'network-online.target', 'sysinit.target', 'systemd-journald.socket', 'basic.target', 'system.slice']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/sonic/printer_data/systemd/klipper.env
+**ExecStart=/home/sonic/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/sonic/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=sonic
+2025-09-08 19:00:27,530 [server.py:add_log_rollover_item()] - Klipper Version: v0.13.0-252-g68b67a16d
+2025-09-08 19:00:27,551 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2025-09-08 19:00:28,161 [application.py:log_request()] - 101 GET /websocket (192.168.1.5) [_TRUSTED_USER_] 134.05ms
+2025-09-08 19:00:28,161 [websockets.py:open()] - Websocket Opened: ID: 4101743232, Proxied: True, User Agent: BBL-Slicer/v01.10.01.50 (dark) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.14
+2025-09-08 19:00:28,165 [application.py:log_request()] - 101 GET /websocket (192.168.1.5) [_TRUSTED_USER_] 134.50ms
+2025-09-08 19:00:28,165 [websockets.py:open()] - Websocket Opened: ID: 4101744408, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0, Host Name: 192.168.1.14
+2025-09-08 19:00:28,170 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2025-09-08 19:00:28,175 [websockets.py:_handle_identify()] - Websocket 4101743232 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2025-09-08 19:00:28,180 [websockets.py:_handle_identify()] - Websocket 4101744408 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2025-09-08 19:00:28,299 [job_state.py:_handle_started()] - Job state initialized: standby
+2025-09-08 19:00:28,569 [klippy_connection.py:_check_ready()] - Klippy ready
+2025-09-08 19:00:29,051 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2025-09-08 19:00:29,353 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoapp.': HTTP 404: Not Found
+2025-09-08 19:00:29,823 [application.py:log_request()] - 101 GET /websocket?token= (127.0.0.1) [_TRUSTED_USER_] 2.52ms
+2025-09-08 19:00:29,823 [websockets.py:open()] - Websocket Opened: ID: 4101744552, Proxied: False, User Agent: , Host Name: 127.0.0.1
+2025-09-08 19:00:29,912 [websockets.py:_handle_identify()] - Websocket 4101744552 Client Identified - Name: KlipperScreen, Version: v0.4.6-11-g6b6f63b6, Type: display
+2025-09-08 19:00:30,402 [file_manager.py:get_file_list()] - Updating File List <gcodes>...
+2025-09-08 19:01:03,131 [application.py:prepare()] - Upload Request Received from 192.168.1.5
+Content-Type: multipart/form-data; boundary=------------------------843c0556b4d3bf34
+2025-09-08 19:01:05,618 [application.py:post()] - Processing Uploaded File: Pinky+Buddy_0.2mm_PLA_Generic Klipper Printer_51m12s.gcode
+2025-09-08 19:01:06,168 [shell_command.py:pipe_data_received()] - INFO:metadata:Processor preprocess_cancellation is disabled
+
+2025-09-08 19:01:06,425 [shell_command.py:_check_proc_success()] - Command (/home/sonic/moonraker-env/bin/python /home/sonic/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-p634w48v.json) successfully finished
+2025-09-08 19:01:06,442 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.5) [_TRUSTED_USER_] 3312.72ms
+2025-09-08 19:01:08,610 [application.py:log_request()] - 101 GET /websocket?token=MZV636IOMJ2Q5M73456SDU7FXRPXJVPV (192.168.1.5) [_TRUSTED_USER_] 4.14ms
+2025-09-08 19:01:08,611 [websockets.py:open()] - Websocket Opened: ID: 4112816064, Proxied: False, User Agent: BBL-Slicer/v01.10.01.50 (dark) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.14
+2025-09-08 19:01:08,617 [websockets.py:_handle_identify()] - Websocket 4112816064 Client Identified - Name: fluidd, Version: 1.34.4-564242b, Type: web
+2025-09-08 19:01:08,618 [file_manager.py:get_file_list()] - Updating File List <config>...
+2025-09-08 19:01:45,023 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Pinky+Buddy_0.2mm_PLA_Generic Klipper Printer_51m12s.gcode
+2025-09-08 19:01:45,092 [job_state.py:_send_job_event()] - Job Started: Pinky+Buddy_0.2mm_PLA_Generic Klipper Printer_51m12s.gcode
+2025-09-08 19:02:25,260 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_API_KEY_USER_] 3.23ms
+2025-09-08 19:02:25,261 [websockets.py:open()] - Websocket Opened: ID: 4116773352, Proxied: False, User Agent: , Host Name: 127.0.0.1

@@ -15245,3 +15245,41 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2025-09-08 17:55:42,210 - INFO - Moonraker client setting up default notification hooks
 2025-09-08 17:55:42,846 - INFO - Printer state at socket connect is: standby
 2025-09-08 17:55:42,847 - INFO - Restore client sync state: There's no print and none of the timers are running.
+2025-09-08 18:55:52,751 - ERROR - OctoEverywhere Ws error: Connection to remote host was lost.
+2025-09-08 18:55:52,752 - ERROR - Connection to remote host was lost. - goodbye
+2025-09-08 18:55:52,753 - INFO - Service websocket closed.
+2025-09-08 18:55:52,761 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[3]
+2025-09-08 18:55:52,764 - INFO - Closing all open web stream sockets (0)
+2025-09-08 18:55:52,765 - INFO - Sleeping for 20 seconds before trying again.
+2025-09-08 18:56:12,784 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[4] wsId:4096561104
+2025-09-08 18:56:13,175 - INFO - Websocket connected
+2025-09-08 18:56:13,177 - INFO - Connected To OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[4]. Starting handshake...
+2025-09-08 18:56:13,271 - INFO - Handshake complete, server con wss://starport-v1.octoeverywhere.com/octoclientws[4], successfully connected to OctoEverywhere!
+2025-09-08 18:56:13,272 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2025-09-08 19:00:24,929 - INFO - Moonraker websocket connection closed.
+2025-09-08 19:00:24,930 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2025-09-08 19:00:26,945 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2025-09-08 19:00:26,965 - INFO - Websocket connected
+2025-09-08 19:00:26,966 - INFO - Moonraker client websocket opened.
+2025-09-08 19:00:26,967 - INFO - Moonraker client waiting for klippy ready...
+2025-09-08 19:00:26,968 - INFO - Authenticating with moonraker...
+2025-09-08 19:00:26,977 - INFO - Kicking the webcam setting read thread due to a request. Forced: True, NeedAutoSettings: False, TimeSinceLastWake: 3888.831758737564 sec.
+2025-09-08 19:00:27,154 - INFO - Moonraker client waiting for klippy ready...
+2025-09-08 19:00:27,180 - INFO - Moonraker client got klippy state 'startup', waiting for ready...
+2025-09-08 19:00:29,189 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2025-09-08 19:00:29,190 - INFO - Moonraker client setting up default notification hooks
+2025-09-08 19:00:30,309 - INFO - Printer state at socket connect is: standby
+2025-09-08 19:00:30,311 - INFO - Restore client sync state: There's no print and none of the timers are running.
+2025-09-08 19:01:45,154 - INFO - FileMetadataCache updated for file [Pinky+Buddy_0.2mm_PLA_Generic Klipper Printer_51m12s.gcode]; est time: 3072.0, size: 6375, filament usage: 5427
+2025-09-08 19:01:45,163 - INFO - Gadget is now watching!
+2025-09-08 19:01:45,166 - INFO - New print started; PrintId: Q3L1H4U92A34AZXWGPVPL36D532V0ZVD3SZHCASTZ9YPCZ8P6WPU23PQW6NS file:Pinky+Buddy_0.2mm_PLA_Generic Klipper Printer_51m12s.gcode size:6375 filament:5427
+2025-09-08 19:01:45,843 - INFO - Creating new session for http://192.168.1.14:8081
+2025-09-08 19:01:46,114 - INFO - Creating new session for https://printer-events-v1-oeapi.octoeverywhere.com
+2025-09-08 19:01:46,631 - INFO - NotificationsHandler successfully sent 'started'
+2025-09-08 19:02:15,431 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2025-09-08 19:02:45,788 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2025-09-08 19:03:16,136 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2025-09-08 19:03:46,455 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2025-09-08 19:04:16,811 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2025-09-08 19:04:47,156 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2025-09-08 19:05:17,498 - INFO - Waiting to predict with Gadget because the printer is warming up.

@@ -3792,3 +3792,38 @@ INFO     | 2025-09-08 18:48:37,515 | DATABASE                 | Updating presenc
 INFO     | 2025-09-08 18:49:36,309 | DATABASE                 | Updating presence
 INFO     | 2025-09-08 18:53:37,636 | DATABASE                 | Updating presence
 INFO     | 2025-09-08 18:54:36,393 | DATABASE                 | Updating presence
+INFO     | 2025-09-08 18:58:37,754 | DATABASE                 | Updating presence
+INFO     | 2025-09-08 18:59:36,503 | DATABASE                 | Updating presence
+INFO     | 2025-09-08 19:00:24,935 | CLIENT                   | Moonraker websocket connection closed.
+INFO     | 2025-09-08 19:00:24,936 | CLIENT                   | Moonraker client websocket connection lost. We will try to restart it soon.
+INFO     | 2025-09-08 19:00:26,944 | CLIENT                   | Connecting to moonraker: ws://0.0.0.0:7125/websocket
+INFO     | 2025-09-08 19:00:26,956 | Websocket connected
+INFO     | 2025-09-08 19:00:26,957 | CLIENT                   | Moonraker client websocket opened.
+INFO     | 2025-09-08 19:00:26,959 | CLIENT                   | Moonraker client waiting for klippy ready...
+INFO     | 2025-09-08 19:00:26,960 | CLIENT                   | Authenticating with moonraker...
+INFO     | 2025-09-08 19:00:26,971 | CLIENT                   | Moonraker client waiting for klippy ready...
+INFO     | 2025-09-08 19:00:26,979 | CLIENT                   | Moonraker client got klippy state 'disconnected', waiting for ready...
+INFO     | 2025-09-08 19:00:28,992 | CLIENT                   | Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+INFO     | 2025-09-08 19:00:28,995 | CLIENT                   | Moonraker client setting up default notification hooks
+INFO     | 2025-09-08 19:00:29,836 | CLIENT                   | Printer state at socket connect is: standby
+INFO     | 2025-09-08 19:00:29,837 | CLIENT                   | Restore client sync state: There's no print and none of the timers are running.
+INFO     | 2025-09-08 19:00:29,838 | PRINT                    | Removing all print infos
+INFO     | 2025-09-08 19:00:29,849 | CLIENT                   | Printer is called SideWinder X2
+INFO     | 2025-09-08 19:01:45,170 | CLIENT                   | Printer is called SideWinder X2
+INFO     | 2025-09-08 19:01:45,214 | FILECACHE                | FileMetadataCache updated for file [Pinky+Buddy_0.2mm_PLA_Generic Klipper Printer_51m12s.gcode]; est time: 3072.0, size: 6375, filament usage: 5427
+INFO     | 2025-09-08 19:01:45,215 | PRINT                    | Removing all print infos
+INFO     | 2025-09-08 19:01:45,228 | CLIENT                   | New print started; PrintId: 2917ff44e8714b04b2c025272321dff1 file:Pinky+Buddy_0.2mm_PLA_Generic Klipper Printer_51m12s.gcode size:6375 filament:5427
+INFO     | 2025-09-08 19:01:45,230 | CLIENT                   | Processing file at http://0.0.0.0:7125/server/files/gcodes/Pinky%2BBuddy_0.2mm_PLA_Generic%20Klipper%20Printer_51m12s.gcode
+INFO     | 2025-09-08 19:01:45,278 | NOTIFICATIONS/UTILS      | Layer 0 completed at at 25109
+INFO     | 2025-09-08 19:01:45,483 | NOTIFICATIONS/UTILS      | Layer 1 completed at at 121260
+INFO     | 2025-09-08 19:01:45,607 | NOTIFICATIONS/UTILS      | Layer 2 completed at at 225730
+INFO     | 2025-09-08 19:01:45,636 | CLIENT                   | Sending started ({'print_id': '2917ff44e8714b04b2c025272321dff1', 'file_name': 'Pinky+Buddy_0.2mm_PLA_Generic Klipper Printer_51m12s.gcode', 'file_path': 'Pinky+Buddy_0.2mm_PLA_Generic Klipper Printer_51m12s.gcode', 'FileSizeKb': '6375', 'FilamentUsageMm': '5427', 'FilamentWeightMg': '0', 'Event': 'started', 'time_remaining_sec': '3072', 'CurrentLayer': '0', 'TotalLayers': '0', 'progress_percent': '0', 'duration_sec': '0.41930270195007324'})
+INFO     | 2025-09-08 19:01:45,637 | CLIENT/SENDER            | Preparing notification for started
+INFO     | 2025-09-08 19:01:45,643 | CLIENT/SENDER            | Finding targets for event=started
+INFO     | 2025-09-08 19:01:45,756 | NOTIFICATIONS/UTILS      | Layer 3 completed at at 334700
+INFO     | 2025-09-08 19:01:45,889 | NOTIFICATIONS/UTILS      | Layer 4 completed at at 448374
+INFO     | 2025-09-08 19:01:46,799 | CLIENT/SENDER            | Sending notification: {"targets": [{"fcmToken": "ecF9009QS_WXzjtZfW1SM0:APA91bG0AWrWps9teSqN-BjNvSFV4iH4Rw-Y3iLr4FNbDk_PIxuuDKpKfXJBir0Vq_dmqOtOXQ8NMtJX8XO7mW_uCdHA7v9n70aC0OySUmHrNknsXAOBZrM", "fcmTokenFallback": null, "instanceId": "543c9a44-eab2-44a2-b50b-ca85c3333f45"}], "highPriority": true, "androidData": "gMUNfJXXUSbekWmWUBIcWgo26qKOyPY3tp2LkFk4BfpFFekeYJ/9NnBQhak6HPwJG5cnlFIef307aj1SKIx9w0X6SCbivGrLGPAr9RMrnOVAM9C7zgr4F1Vo7mz+bMPJXhr7eTMQsJa9kp+/bAPk2N/7AO3ozR6admeIQgkjQpvHbfF05MMPJk41SCrfN0yyccbV2SPT19MDqAPGU87X7Bd6Oh5lik3PuYSBRLuoD8BYgUEO+yrw0HYRf6t+MMYgjGGyC8fLCXBTsF3BFXiYeEdNXHmRu2vCUH9yU3tbYq41L6HF7+4AHc64JEtuMZ970t7hhKFNv/3uYzS4HajPV4VCd5fDLZG6c4mXJvIfAZb1DgDGvalvRKsuOGHG/g0u", "apnsData": null}
+INFO     | 2025-09-08 19:01:47,455 | CLIENT/SENDER            | Send to 1 was success {'success': True, 'invalidTokens': []} (Execution ID: cpn0732uopys)
+INFO     | 2025-09-08 19:01:52,351 | CLIENT                   | File processed
+INFO     | 2025-09-08 19:03:37,784 | DATABASE                 | Updating presence
+INFO     | 2025-09-08 19:04:36,557 | DATABASE                 | Updating presence

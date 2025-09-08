@@ -23256,3 +23256,57 @@ machine.shell_command' detected in section [authorization].  This may be an opti
 2025-09-08 17:55:42,726 [printer.py:init_temp_store()] - Temp store: ['heater_bed', 'extruder']
 2025-09-08 17:55:42,748 [screen.py:init_tempstore()] - Temperature store size: 1200
 2025-09-08 18:00:42,794 [screensaver.py:show()] - Showing Screensaver
+2025-09-08 19:00:24,927 [KlippyWebsocket.py:on_close()] - 1001 Server Shutdown
+2025-09-08 19:00:24,929 [KlippyWebsocket.py:on_close()] - Moonraker Websocket Closed
+2025-09-08 19:00:24,934 [screen.py:websocket_disconnected()] - ### websocket_disconnected
+2025-09-08 19:00:24,935 [screen.py:_remove_all_panels()] - Removing all panels
+2025-09-08 19:00:24,942 [screensaver.py:close()] - Closing Screensaver
+2025-09-08 19:00:24,946 [screen.py:wake_screen()] - Screen wake up
+2025-09-08 19:00:25,085 [screen.py:show_panel()] - Reinitializing panel splash_screen
+2025-09-08 19:00:25,126 [screen.py:attach_panel()] - Current panel hierarchy: splash_screen
+2025-09-08 19:00:25,224 [screen.py:connect_printer()] - Connecting to printer: Printer
+2025-09-08 19:00:25,225 [screen.py:show_panel()] - Panel is already is in view
+2025-09-08 19:00:25,242 [KlippyRest.py:_do_request()] - host=127.0.0.1, port=7125>>Max retries exceeded with url>>Failed to establish a new connection>>[Errno 111] Connection refused
+2025-09-08 19:00:25,243 [screen.py:connect_to_moonraker()] - Cannot get server info
+2025-09-08 19:00:29,810 [KlippyWebsocket.py:connect()] - Attempting to connect
+2025-09-08 19:00:29,810 [KlippyWebsocket.py:connect()] - Starting websocket thread
+2025-09-08 19:00:29,824 [_logging.py:info()] - Websocket connected
+2025-09-08 19:00:29,825 [KlippyWebsocket.py:on_open()] - Moonraker Websocket Open
+2025-09-08 19:00:29,825 [screen.py:websocket_connected()] - ### websocket_connected
+2025-09-08 19:00:29,909 [KlippyWebsocket.py:identify_client()] - Sending server.connection.identify
+2025-09-08 19:00:29,934 [printer.py:configure_cameras()] - Cameras: [{'name': 'Side', 'enabled': True, 'icon': 'mdiWebcam', 'aspect_ratio': '4:3', 'target_fps': 30, 'target_fps_idle': 30, 'location': 'printer', 'service': 'mjpegstreamer', 'stream_url': 'http://192.168.1.14:8081/?action=stream', 'snapshot_url': 'http://192.168.1.14:8081/snapshot', 'flip_horizontal': False, 'flip_vertical': False, 'rotation': 0, 'source': 'database', 'extra_data': {'nozzleCrosshair': False}, 'uid': '43ac7168-93bb-4cf3-b7ee-42aeb1678654'}]
+2025-09-08 19:00:29,952 [screen.py:init_klipper()] - Moonraker info {'klippy_connected': True, 'klippy_state': 'ready', 'components': ['secrets', 'template', 'klippy_connection', 'jsonrpc', 'internal_transport', 'application', 'websockets', 'database', 'dbus_manager', 'file_manager', 'authorization', 'klippy_apis', 'shell_command', 'machine', 'data_store', 'proc_stats', 'job_state', 'job_queue', 'history', 'http_client', 'announcements', 'webcam', 'extensions', 'timelapse', 'update_manager', 'octoprint_compat'], 'failed_components': [], 'registered_directories': ['config', 'logs', 'gcodes', 'timelapse', 'timelapse_frames', 'config_examples', 'docs'], 'warnings': [], 'websocket_count': 6, 'moonraker_version': 'v0.9.3-104-g52e3158', 'missing_klippy_requirements': [], 'api_version': [1, 5, 0], 'api_version_string': '1.5.0'}
+2025-09-08 19:00:30,085 [printer.py:log_counts()] - Klipper version: v0.13.0-252-g68b67a16d
+2025-09-08 19:00:30,085 [printer.py:log_counts()] - # Extruders: 1
+2025-09-08 19:00:30,085 [printer.py:log_counts()] - # Temperature devices: 1
+2025-09-08 19:00:30,086 [printer.py:log_counts()] - # Fans: 3
+2025-09-08 19:00:30,086 [printer.py:log_counts()] - # Output pins: 0
+2025-09-08 19:00:30,086 [printer.py:log_counts()] - # PWM tools: 0
+2025-09-08 19:00:30,086 [printer.py:log_counts()] - # Leds: 1
+2025-09-08 19:00:30,328 [KlippyWebsocket.py:object_subscription()] - Sending printer.objects.subscribe
+2025-09-08 19:00:30,329 [files.py:set_gcodes_path()] - Gcodes path: /home/sonic/printer_data/gcodes
+2025-09-08 19:00:30,330 [screen.py:init_klipper()] - Printer initialized
+2025-09-08 19:00:30,330 [printer.py:change_state()] - Changing state from 'disconnected' to 'ready'
+2025-09-08 19:00:30,332 [printer.py:change_state()] - Adding callback for state: ready
+2025-09-08 19:00:30,397 [screen.py:set_dpms_timeout()] - DPMS on :0 set to: 300
+2025-09-08 19:00:30,398 [screen.py:set_screenblanking_timeout()] - Blanking timeout: 300 DPMS:True
+2025-09-08 19:00:30,398 [KlippyWebsocket.py:get_file_list()] - Sending server.files.list
+2025-09-08 19:00:30,403 [screen.py:_remove_all_panels()] - Removing all panels
+2025-09-08 19:00:30,494 [screen.py:show_panel()] - Reinitializing panel main_menu
+2025-09-08 19:00:30,752 [main_menu.py:__init__()] - ### Making MainMenu
+2025-09-08 19:00:30,765 [main_menu.py:add_device()] - Adding device: extruder
+2025-09-08 19:00:30,770 [main_menu.py:add_device()] - Adding device: heater_bed
+2025-09-08 19:00:30,798 [menu.py:arrangeMenuItems()] - X > gcodes
+2025-09-08 19:00:30,812 [screen.py:attach_panel()] - Current panel hierarchy: main_menu
+2025-09-08 19:00:30,858 [printer.py:init_temp_store()] - Temp store: ['heater_bed', 'extruder']
+2025-09-08 19:00:30,878 [screen.py:init_tempstore()] - Temperature store size: 1200
+2025-09-08 19:01:45,105 [printer.py:change_state()] - Changing state from 'ready' to 'printing'
+2025-09-08 19:01:45,106 [printer.py:change_state()] - Adding callback for state: printing
+2025-09-08 19:01:45,326 [screen.py:set_dpms_timeout()] - DPMS on :0 set to: 300
+2025-09-08 19:01:45,327 [screen.py:set_screenblanking_timeout()] - Blanking timeout: 300 DPMS:True
+2025-09-08 19:01:45,328 [screen.py:_remove_all_panels()] - Removing all panels
+2025-09-08 19:01:45,497 [screen.py:_load_panel()] - Loading panel: job_status
+2025-09-08 19:01:45,751 [screen.py:attach_panel()] - Current panel hierarchy: job_status
+2025-09-08 19:01:45,766 [job_status.py:set_state()] - Changing job_status state from 'standby' to 'printing'
+2025-09-08 19:01:45,803 [job_status.py:update_filename()] - Updating filename to Pinky+Buddy_0.2mm_PLA_Generic Klipper Printer_51m12s.gcode
+2025-09-08 19:01:45,804 [job_status.py:_update_file_metadata()] - Update Metadata. File: Pinky+Buddy_0.2mm_PLA_Generic Klipper Printer_51m12s.gcode Size: 6528414
