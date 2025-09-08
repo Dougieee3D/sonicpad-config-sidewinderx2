@@ -23310,3 +23310,4 @@ machine.shell_command' detected in section [authorization].  This may be an opti
 2025-09-08 19:01:45,766 [job_status.py:set_state()] - Changing job_status state from 'standby' to 'printing'
 2025-09-08 19:01:45,803 [job_status.py:update_filename()] - Updating filename to Pinky+Buddy_0.2mm_PLA_Generic Klipper Printer_51m12s.gcode
 2025-09-08 19:01:45,804 [job_status.py:_update_file_metadata()] - Update Metadata. File: Pinky+Buddy_0.2mm_PLA_Generic Klipper Printer_51m12s.gcode Size: 6528414
+2025-09-08 19:06:45,796 [screensaver.py:show()] - Showing Screensaver
