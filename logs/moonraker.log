@@ -7362,3 +7362,21 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryOnOKFCxJAiMPro
 2025-09-08 19:52:25,194 [timelapse.py:render()] - duplicating last frame failed: '/home/sonic/printer_data/timelapse/frames/frame000086.jpg' and '/home/sonic/printer_data/timelapse/frames/frame000086.jpg' are the same file
 2025-09-08 19:52:25,198 [timelapse.py:render()] - start FFMPEG: /usr/bin/ffmpeg -r 30 -i '/home/sonic/printer_data/timelapse/frames/frame%6d.jpg' -threads 2 -g 5 -crf 18 -vcodec libx264 -pix_fmt yuv420p -an  '/home/sonic/printer_data/timelapse/frames/timelapse_Pinky+Buddy_0.2mm_PLA_Generic Klipper Printer_51m12s.gcode_20250908_1952.mp4' -y
 2025-09-08 19:52:56,724 [timelapse.py:render()] - Rendering Video successful: timelapse_Pinky+Buddy_0.2mm_PLA_Generic Klipper Printer_51m12s.gcode_20250908_1952.mp4
+2025-09-08 19:59:28,137 [application.py:log_request()] - 101 GET /websocket (192.168.1.5) [_TRUSTED_USER_] 5.92ms
+2025-09-08 19:59:28,138 [websockets.py:open()] - Websocket Opened: ID: 4101782472, Proxied: True, User Agent: BBL-Slicer/v01.10.01.50 (dark) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.14
+2025-09-08 19:59:28,214 [websockets.py:_handle_identify()] - Websocket 4101782472 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2025-09-08 19:59:28,261 [application.py:log_request()] - 101 GET /websocket?token=2U5O7K5INTC3FLQZS5N66P5BWRLEANWS (192.168.1.5) [_TRUSTED_USER_] 2.93ms
+2025-09-08 19:59:28,261 [websockets.py:open()] - Websocket Opened: ID: 4101743280, Proxied: False, User Agent: BBL-Slicer/v01.10.01.50 (dark) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.14
+2025-09-08 19:59:28,270 [websockets.py:_handle_identify()] - Websocket 4101743280 Client Identified - Name: fluidd, Version: 1.34.4-564242b, Type: web
+2025-09-08 19:59:28,271 [file_manager.py:get_file_list()] - Updating File List <config>...
+2025-09-08 19:59:45,005 [application.py:prepare()] - Upload Request Received from 192.168.1.5
+Content-Type: multipart/form-data; boundary=------------------------1326268ef1b1a2f5
+2025-09-08 19:59:47,900 [application.py:post()] - Processing Uploaded File: Pinky+Buddy_0.2mm_PLA_Generic Klipper Printer_50m11s.gcode
+2025-09-08 19:59:48,521 [shell_command.py:pipe_data_received()] - INFO:metadata:Processor preprocess_cancellation is disabled
+
+2025-09-08 19:59:48,832 [shell_command.py:_check_proc_success()] - Command (/home/sonic/moonraker-env/bin/python /home/sonic/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-p4ex6pfx.json) successfully finished
+2025-09-08 19:59:48,841 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.5) [_TRUSTED_USER_] 3839.21ms
+2025-09-08 19:59:53,394 [websockets.py:on_close()] - Websocket Closed: ID: 4101743280 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 15.12
+2025-09-08 19:59:53,396 [websockets.py:on_close()] - Websocket Closed: ID: 4101782472 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 15.25
+2025-09-08 20:00:29,773 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoapp.': HTTP 404: Not Found
+2025-09-08 20:05:25,838 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
