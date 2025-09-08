@@ -7296,3 +7296,41 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryOnOKFCxJAiMPro
 2025-09-08 19:25:51,314 [websockets.py:on_close()] - Websocket Closed: ID: 4101744408 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 12.62
 2025-09-08 19:26:10,898 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000033.jpg) successfully finished
 2025-09-08 19:26:42,876 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000034.jpg) successfully finished
+2025-09-08 19:27:14,818 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000035.jpg) successfully finished
+2025-09-08 19:27:47,011 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000036.jpg) successfully finished
+2025-09-08 19:28:17,137 [websockets.py:on_close()] - Websocket Closed: ID: 4101743232 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 8.40
+2025-09-08 19:28:17,139 [websockets.py:on_close()] - Websocket Closed: ID: 4112816064 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 28.27
+2025-09-08 19:28:19,531 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000037.jpg) successfully finished
+2025-09-08 19:28:49,878 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000038.jpg) successfully finished
+2025-09-08 19:29:20,358 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000039.jpg) successfully finished
+2025-09-08 19:29:52,326 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000040.jpg) successfully finished
+2025-09-08 19:30:24,689 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000041.jpg) successfully finished
+2025-09-08 19:30:29,058 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoapp.': HTTP 404: Not Found
+2025-09-08 19:30:56,774 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000042.jpg) successfully finished
+2025-09-08 19:31:29,137 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000043.jpg) successfully finished
+2025-09-08 19:32:01,769 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000044.jpg) successfully finished
+2025-09-08 19:32:33,738 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000045.jpg) successfully finished
+2025-09-08 19:33:05,642 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000046.jpg) successfully finished
+2025-09-08 19:33:37,649 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000047.jpg) successfully finished
+2025-09-08 19:34:09,598 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000048.jpg) successfully finished
+2025-09-08 19:34:33,977 [application.py:log_request()] - 101 GET /websocket (192.168.1.5) [_TRUSTED_USER_] 7.69ms
+2025-09-08 19:34:33,978 [websockets.py:open()] - Websocket Opened: ID: 4101261752, Proxied: True, User Agent: BBL-Slicer/v01.10.01.50 (dark) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.14
+2025-09-08 19:34:33,987 [websockets.py:_handle_identify()] - Websocket 4101261752 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2025-09-08 19:34:34,018 [application.py:log_request()] - 101 GET /websocket?token=4BS7YPJJQ7V5SZRAGHQUIS3CMEA6SFUO (192.168.1.5) [_TRUSTED_USER_] 2.77ms
+2025-09-08 19:34:34,018 [websockets.py:open()] - Websocket Opened: ID: 4113056648, Proxied: False, User Agent: BBL-Slicer/v01.10.01.50 (dark) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.14
+2025-09-08 19:34:34,023 [websockets.py:_handle_identify()] - Websocket 4113056648 Client Identified - Name: fluidd, Version: 1.34.4-564242b, Type: web
+2025-09-08 19:34:34,024 [file_manager.py:get_file_list()] - Updating File List <config>...
+2025-09-08 19:34:41,527 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000049.jpg) successfully finished
+2025-09-08 19:35:13,938 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000050.jpg) successfully finished
+2025-09-08 19:35:15,214 [application.py:log_request()] - 101 GET /websocket (192.168.1.5) [_TRUSTED_USER_] 4.24ms
+2025-09-08 19:35:15,215 [websockets.py:open()] - Websocket Opened: ID: 4082876104, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0, Host Name: 192.168.1.14
+2025-09-08 19:35:15,375 [websockets.py:_handle_identify()] - Websocket 4082876104 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2025-09-08 19:35:15,616 [application.py:log_request()] - 101 GET /websocket?token=WSFA2PRKIO2XMT2TL6GHBX2K4YIL4BSD (192.168.1.5) [_TRUSTED_USER_] 3.45ms
+2025-09-08 19:35:15,616 [websockets.py:open()] - Websocket Opened: ID: 4101261656, Proxied: False, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0, Host Name: 192.168.1.14
+2025-09-08 19:35:15,625 [websockets.py:_handle_identify()] - Websocket 4101261656 Client Identified - Name: fluidd, Version: 1.34.4-564242b, Type: web
+2025-09-08 19:35:15,626 [file_manager.py:get_file_list()] - Updating File List <config>...
+2025-09-08 19:35:46,550 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000051.jpg) successfully finished
+2025-09-08 19:35:47,017 [websockets.py:on_close()] - Websocket Closed: ID: 4101261752 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 3.02
+2025-09-08 19:35:47,020 [websockets.py:on_close()] - Websocket Closed: ID: 4113056648 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 2.99
+2025-09-08 19:36:18,642 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000052.jpg) successfully finished
+2025-09-08 19:36:51,406 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000053.jpg) successfully finished
