@@ -15341,3 +15341,14 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2025-09-08 20:33:31,801 - INFO - First layer timer is done. Stopping.
 2025-09-08 20:33:31,806 - INFO - RepeatTimer thread exit
 2025-09-08 20:33:32,930 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2025-09-08 20:49:47,225 - ERROR - OctoEverywhere Ws error: Connection to remote host was lost.
+2025-09-08 20:49:47,228 - ERROR - Connection to remote host was lost. - goodbye
+2025-09-08 20:49:47,230 - INFO - Service websocket closed.
+2025-09-08 20:49:47,236 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[5]
+2025-09-08 20:49:47,239 - INFO - Closing all open web stream sockets (0)
+2025-09-08 20:49:47,240 - INFO - Sleeping for 26 seconds before trying again.
+2025-09-08 20:50:13,268 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[6] wsId:4096558488
+2025-09-08 20:50:13,638 - INFO - Websocket connected
+2025-09-08 20:50:13,639 - INFO - Connected To OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[6]. Starting handshake...
+2025-09-08 20:50:13,711 - INFO - Handshake complete, server con wss://starport-v1.octoeverywhere.com/octoclientws[6], successfully connected to OctoEverywhere!
+2025-09-08 20:50:13,711 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
