@@ -4226,3 +4226,24 @@ INFO     | 2025-09-08 20:09:37,747 | DATABASE                 | Updating presenc
 INFO     | 2025-09-08 20:13:39,321 | DATABASE                 | Updating presence
 INFO     | 2025-09-08 20:14:37,859 | DATABASE                 | Updating presence
 INFO     | 2025-09-08 20:18:39,427 | DATABASE                 | Updating presence
+INFO     | 2025-09-08 20:19:37,980 | DATABASE                 | Updating presence
+INFO     | 2025-09-08 20:22:54,006 | CLIENT                   | Printer is called SideWinder X2
+INFO     | 2025-09-08 20:22:54,018 | FILECACHE                | FileMetadataCache updated for file [result - 2025-07-25T081619.603_0.2mm_PLA_Generic Klipper Printer_4h58m.gcode]; est time: 17850.0, size: 42430, filament usage: 25517
+INFO     | 2025-09-08 20:22:54,019 | PRINT                    | Removing all print infos
+INFO     | 2025-09-08 20:22:54,032 | CLIENT                   | New print started; PrintId: ac33a73dc8b84265a445573751e9539d file:result - 2025-07-25T081619.603_0.2mm_PLA_Generic Klipper Printer_4h58m.gcode size:42430 filament:25517
+INFO     | 2025-09-08 20:22:54,038 | CLIENT                   | Processing file at http://0.0.0.0:7125/server/files/gcodes/result%20-%202025-07-25T081619.603_0.2mm_PLA_Generic%20Klipper%20Printer_4h58m.gcode
+INFO     | 2025-09-08 20:22:54,096 | NOTIFICATIONS/UTILS      | Layer 0 completed at at 32271
+INFO     | 2025-09-08 20:22:54,246 | NOTIFICATIONS/UTILS      | Layer 1 completed at at 172872
+INFO     | 2025-09-08 20:22:54,400 | NOTIFICATIONS/UTILS      | Layer 2 completed at at 315261
+INFO     | 2025-09-08 20:22:54,573 | NOTIFICATIONS/UTILS      | Layer 3 completed at at 458984
+INFO     | 2025-09-08 20:22:54,744 | NOTIFICATIONS/UTILS      | Layer 4 completed at at 601623
+INFO     | 2025-09-08 20:22:55,434 | CLIENT                   | Sending started ({'print_id': 'ac33a73dc8b84265a445573751e9539d', 'file_name': 'result - 2025-07-25T081619.603_0.2mm_PLA_Generic Klipper Printer_4h58m.gcode', 'file_path': 'result - 2025-07-25T081619.603_0.2mm_PLA_Generic Klipper Printer_4h58m.gcode', 'FileSizeKb': '42430', 'FilamentUsageMm': '25517', 'FilamentWeightMg': '0', 'Event': 'started', 'time_remaining_sec': '17850', 'CurrentLayer': '0', 'TotalLayers': '0', 'progress_percent': '0', 'duration_sec': '1.413573980331421'})
+INFO     | 2025-09-08 20:22:55,443 | CLIENT/SENDER            | Preparing notification for started
+INFO     | 2025-09-08 20:22:55,448 | CLIENT/SENDER            | Finding targets for event=started
+INFO     | 2025-09-08 20:22:55,513 | CLIENT/SENDER            | Sending notification: {"targets": [{"fcmToken": "ecF9009QS_WXzjtZfW1SM0:APA91bG0AWrWps9teSqN-BjNvSFV4iH4Rw-Y3iLr4FNbDk_PIxuuDKpKfXJBir0Vq_dmqOtOXQ8NMtJX8XO7mW_uCdHA7v9n70aC0OySUmHrNknsXAOBZrM", "fcmTokenFallback": null, "instanceId": "543c9a44-eab2-44a2-b50b-ca85c3333f45"}], "highPriority": true, "androidData": "xTmzTM6HfoyyFlaoRFY96RN6kWSiJXMOA1qGX7QDHu6VvacrUS7QqHOXwFG7hKSQUUnpL/Pmrosgfo8G+yX49Myl/JsydM2iXzXMdyr9wQmQrtYWFDsk3aQ8YDW3K2ANYloS8kw8i91MHQqFAcqJSfUyOe01Nm2eo02icPXq6i5x4UrC2If0MgVPQuU+OUaeWcQfXKDR5fzyhXynJMLW61toFh4jcbdmOL0Jgqlg+dgGOCYNpEEf1LGspwege/3LXCcvFocU2qyEM2k72CYfSprekTzyNYr2SMhc31Peo5+hXWqXoB7s7qXixC8/Np2hj4QFfKL8ngQF/NxCqHmbYjP9H/P8DxI0zs0OR/K24Iv/wWtu3exi+XT3FR6apHmt4EtM+6Eq1NgZ/C6cfaiAjw==", "apnsData": null}
+INFO     | 2025-09-08 20:22:56,047 | CLIENT/SENDER            | Send to 1 was success {'success': True, 'invalidTokens': []} (Execution ID: ihs628vai5o6)
+INFO     | 2025-09-08 20:23:39,570 | DATABASE                 | Updating presence
+INFO     | 2025-09-08 20:23:41,950 | CLIENT                   | File processed
+INFO     | 2025-09-08 20:24:38,088 | DATABASE                 | Updating presence
+INFO     | 2025-09-08 20:28:39,759 | DATABASE                 | Updating presence
+INFO     | 2025-09-08 20:29:38,212 | DATABASE                 | Updating presence

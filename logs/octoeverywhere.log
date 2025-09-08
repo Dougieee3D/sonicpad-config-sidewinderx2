@@ -15322,3 +15322,19 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2025-09-08 19:52:30,440 - INFO - Bed cooldown watcher, bed is cooled down, but it was already cool on the first read, so we won't notify.
 2025-09-08 19:52:30,441 - INFO - Bed cooldown watcher stopped.
 2025-09-08 19:52:30,442 - INFO - RepeatTimer thread exit
+2025-09-08 20:22:53,998 - INFO - FileMetadataCache updated for file [result - 2025-07-25T081619.603_0.2mm_PLA_Generic Klipper Printer_4h58m.gcode]; est time: 17850.0, size: 42430, filament usage: 25517
+2025-09-08 20:22:54,008 - INFO - Gadget HostLock cleared
+2025-09-08 20:22:54,009 - INFO - Gadget is now watching!
+2025-09-08 20:22:54,011 - INFO - New print started; PrintId: JZFW024DUUZ71VDHNPG4UVKGDO7ONKMIGK2JHUZA8EB4LRP2BHQXI54O0GC4 file:result - 2025-07-25T081619.603_0.2mm_PLA_Generic Klipper Printer_4h58m.gcode size:42430 filament:25517
+2025-09-08 20:22:55,178 - INFO - Kicking the webcam setting read thread due to a request. Forced: False, NeedAutoSettings: False, TimeSinceLastWake: 4948.200198888779 sec.
+2025-09-08 20:22:55,854 - INFO - NotificationsHandler successfully sent 'started'
+2025-09-08 20:23:24,509 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2025-09-08 20:23:54,857 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2025-09-08 20:24:25,196 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2025-09-08 20:24:55,539 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2025-09-08 20:25:25,867 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2025-09-08 20:25:56,207 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2025-09-08 20:26:26,551 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2025-09-08 20:26:58,426 - INFO - Gadget HostLock set to: gadget-sfo.octoeverywhere.com
+2025-09-08 20:27:00,750 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2025-09-08 20:27:24,373 - INFO - Creating new session for https://gadget-sfo.octoeverywhere.com

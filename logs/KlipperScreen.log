@@ -23326,3 +23326,18 @@ machine.shell_command' detected in section [authorization].  This may be an opti
 2025-09-08 19:52:25,266 [screen.py:set_dpms_timeout()] - DPMS on :0 set to: 300
 2025-09-08 19:52:25,266 [screen.py:set_screenblanking_timeout()] - Blanking timeout: 300 DPMS:True
 2025-09-08 19:57:25,796 [screensaver.py:show()] - Showing Screensaver
+2025-09-08 20:22:53,953 [printer.py:change_state()] - Changing state from 'ready' to 'printing'
+2025-09-08 20:22:53,953 [printer.py:change_state()] - Adding callback for state: printing
+2025-09-08 20:22:53,956 [screensaver.py:close()] - Closing Screensaver
+2025-09-08 20:22:53,959 [screen.py:wake_screen()] - Screen wake up
+2025-09-08 20:22:54,106 [screen.py:set_dpms_timeout()] - DPMS on :0 set to: 300
+2025-09-08 20:22:54,107 [screen.py:set_screenblanking_timeout()] - Blanking timeout: 300 DPMS:True
+2025-09-08 20:22:54,108 [screen.py:_menu_go_back()] - #### Menu go home
+2025-09-08 20:22:54,111 [screen.py:_remove_all_panels()] - Removing all panels
+2025-09-08 20:22:54,202 [screen.py:show_panel()] - Reinitializing panel job_status
+2025-09-08 20:22:54,313 [screen.py:attach_panel()] - Current panel hierarchy: job_status
+2025-09-08 20:22:54,328 [job_status.py:set_state()] - Changing job_status state from 'standby' to 'printing'
+2025-09-08 20:22:54,350 [job_status.py:update_filename()] - Updating filename to result - 2025-07-25T081619.603_0.2mm_PLA_Generic Klipper Printer_4h58m.gcode
+2025-09-08 20:22:54,351 [job_status.py:_update_file_metadata()] - Update Metadata. File: result - 2025-07-25T081619.603_0.2mm_PLA_Generic Klipper Printer_4h58m.gcode Size: 43449261
+2025-09-08 20:22:54,421 [screen.py:attach_panel()] - Current panel hierarchy: job_status > job_status
+2025-09-08 20:27:54,795 [screensaver.py:show()] - Showing Screensaver
