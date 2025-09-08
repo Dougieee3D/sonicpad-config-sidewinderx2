@@ -7274,3 +7274,25 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryOnOKFCxJAiMPro
 2025-09-08 19:14:50,103 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000012.jpg) successfully finished
 2025-09-08 19:15:22,998 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000013.jpg) successfully finished
 2025-09-08 19:15:57,114 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000014.jpg) successfully finished
+2025-09-08 19:16:29,742 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000015.jpg) successfully finished
+2025-09-08 19:17:01,927 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000016.jpg) successfully finished
+2025-09-08 19:17:33,886 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000017.jpg) successfully finished
+2025-09-08 19:18:05,738 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000018.jpg) successfully finished
+2025-09-08 19:18:38,502 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) successfully finished
+2025-09-08 19:19:10,870 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000020.jpg) successfully finished
+2025-09-08 19:19:43,994 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000021.jpg) successfully finished
+2025-09-08 19:20:16,532 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000022.jpg) successfully finished
+2025-09-08 19:20:49,164 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000023.jpg) successfully finished
+2025-09-08 19:21:22,058 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000024.jpg) successfully finished
+2025-09-08 19:21:54,562 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000025.jpg) successfully finished
+2025-09-08 19:22:27,063 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000026.jpg) successfully finished
+2025-09-08 19:22:58,840 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000027.jpg) successfully finished
+2025-09-08 19:23:30,676 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000028.jpg) successfully finished
+2025-09-08 19:24:02,390 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000029.jpg) successfully finished
+2025-09-08 19:24:34,226 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000030.jpg) successfully finished
+2025-09-08 19:25:06,303 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000031.jpg) successfully finished
+2025-09-08 19:25:39,030 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000032.jpg) successfully finished
+2025-09-08 19:25:51,311 [websockets.py:on_close()] - Websocket Closed: ID: 4082785800 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 13.81
+2025-09-08 19:25:51,314 [websockets.py:on_close()] - Websocket Closed: ID: 4101744408 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 12.62
+2025-09-08 19:26:10,898 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000033.jpg) successfully finished
+2025-09-08 19:26:42,876 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000034.jpg) successfully finished
