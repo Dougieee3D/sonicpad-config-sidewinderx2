@@ -1,0 +1,6 @@
+[webcam]
+# Default webcam setup for Mainsail / Klipper
+input: /dev/video0
+output: http://127.0.0.1:8080/?action=stream
+snapshot: http://127.0.0.1:8080/?action=snapshot
+ffmpeg: /usr/bin/ffmpeg

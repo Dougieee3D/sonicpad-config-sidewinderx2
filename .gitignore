@@ -1,0 +1,10 @@
+logs/
+*.log
+gcodes/
+timelapse/
+timelapse/frames/
+config/moonraker-timelapse/
+comms/
+media/
+**/__pycache__/
+*.pyc
