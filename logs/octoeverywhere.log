@@ -15360,3 +15360,4 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2025-09-08 22:12:43,616 - INFO - NotificationsHandler successfully sent 'progress'
 2025-09-08 22:22:55,073 - INFO - NotificationsHandler successfully sent 'timerprogress'
 2025-09-08 22:23:13,585 - INFO - Kicking the webcam setting read thread due to a request. Forced: False, NeedAutoSettings: False, TimeSinceLastWake: 3609.029620409012 sec.
+2025-09-08 22:38:12,408 - INFO - NotificationsHandler successfully sent 'progress'
