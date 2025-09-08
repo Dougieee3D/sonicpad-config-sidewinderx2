@@ -7380,3 +7380,62 @@ Content-Type: multipart/form-data; boundary=------------------------1326268ef1b1
 2025-09-08 19:59:53,396 [websockets.py:on_close()] - Websocket Closed: ID: 4101782472 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 15.25
 2025-09-08 20:00:29,773 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoapp.': HTTP 404: Not Found
 2025-09-08 20:05:25,838 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2025-09-08 20:13:10,865 [application.py:log_request()] - 101 GET /websocket (192.168.1.5) [_TRUSTED_USER_] 3.13ms
+2025-09-08 20:13:10,865 [websockets.py:open()] - Websocket Opened: ID: 4112733016, Proxied: True, User Agent: BBL-Slicer/v01.10.01.50 (dark) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.14
+2025-09-08 20:13:10,870 [websockets.py:_handle_identify()] - Websocket 4112733016 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2025-09-08 20:13:10,918 [application.py:log_request()] - 101 GET /websocket?token=A6CMHCIRWY4C5GUBXBJ4KDKKJ5JGKK7A (192.168.1.5) [_TRUSTED_USER_] 2.98ms
+2025-09-08 20:13:10,919 [websockets.py:open()] - Websocket Opened: ID: 4101260528, Proxied: False, User Agent: BBL-Slicer/v01.10.01.50 (dark) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.14
+2025-09-08 20:13:10,931 [websockets.py:_handle_identify()] - Websocket 4101260528 Client Identified - Name: fluidd, Version: 1.34.4-564242b, Type: web
+2025-09-08 20:13:10,932 [file_manager.py:get_file_list()] - Updating File List <config>...
+2025-09-08 20:13:33,205 [websockets.py:on_close()] - Websocket Closed: ID: 4101260528 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 12.28
+2025-09-08 20:13:33,207 [websockets.py:on_close()] - Websocket Closed: ID: 4112733016 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 12.34
+2025-09-08 20:13:33,366 [application.py:log_request()] - 101 GET /websocket (192.168.1.5) [_TRUSTED_USER_] 4.18ms
+2025-09-08 20:13:33,366 [websockets.py:open()] - Websocket Opened: ID: 4101672792, Proxied: True, User Agent: BBL-Slicer/v01.10.01.50 (dark) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.14
+2025-09-08 20:13:33,380 [websockets.py:_handle_identify()] - Websocket 4101672792 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2025-09-08 20:13:33,401 [application.py:log_request()] - 101 GET /websocket?token=N7PMG3MC3JOJ522E42PAOSOPPR2LQ5JY (192.168.1.5) [_TRUSTED_USER_] 2.75ms
+2025-09-08 20:13:33,402 [websockets.py:open()] - Websocket Opened: ID: 4101780744, Proxied: False, User Agent: BBL-Slicer/v01.10.01.50 (dark) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.14
+2025-09-08 20:13:33,406 [websockets.py:_handle_identify()] - Websocket 4101780744 Client Identified - Name: fluidd, Version: 1.34.4-564242b, Type: web
+2025-09-08 20:13:33,407 [file_manager.py:get_file_list()] - Updating File List <config>...
+2025-09-08 20:13:37,167 [websockets.py:on_close()] - Websocket Closed: ID: 4101780744 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 3.77
+2025-09-08 20:13:37,170 [websockets.py:on_close()] - Websocket Closed: ID: 4101672792 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 3.81
+2025-09-08 20:13:40,362 [application.py:log_request()] - 101 GET /websocket (192.168.1.5) [_TRUSTED_USER_] 4.14ms
+2025-09-08 20:13:40,363 [websockets.py:open()] - Websocket Opened: ID: 4101743088, Proxied: True, User Agent: BBL-Slicer/v01.10.01.50 (dark) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.14
+2025-09-08 20:13:40,370 [websockets.py:_handle_identify()] - Websocket 4101743088 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2025-09-08 20:13:40,394 [application.py:log_request()] - 101 GET /websocket?token=W7PP3DNKO24JJXEX5SJJ26UNXXNDVC3E (192.168.1.5) [_TRUSTED_USER_] 3.86ms
+2025-09-08 20:13:40,395 [websockets.py:open()] - Websocket Opened: ID: 4101746184, Proxied: False, User Agent: BBL-Slicer/v01.10.01.50 (dark) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.14
+2025-09-08 20:13:40,401 [websockets.py:_handle_identify()] - Websocket 4101746184 Client Identified - Name: fluidd, Version: 1.34.4-564242b, Type: web
+2025-09-08 20:13:40,402 [file_manager.py:get_file_list()] - Updating File List <config>...
+2025-09-08 20:14:47,963 [application.py:prepare()] - Upload Request Received from 192.168.1.5
+Content-Type: multipart/form-data; boundary=------------------------c445d0fb89688946
+2025-09-08 20:15:05,198 [application.py:post()] - Processing Uploaded File: result - 2025-07-25T081619.603_0.2mm_PLA_Generic Klipper Printer_4h58m.gcode
+2025-09-08 20:15:05,842 [shell_command.py:pipe_data_received()] - INFO:metadata:Processor preprocess_cancellation is disabled
+
+2025-09-08 20:15:06,169 [shell_command.py:_check_proc_success()] - Command (/home/sonic/moonraker-env/bin/python /home/sonic/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-rf0ixmhi.json) successfully finished
+2025-09-08 20:15:06,178 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.5) [_TRUSTED_USER_] 18216.51ms
+2025-09-08 20:17:22,957 [websockets.py:on_close()] - Websocket Closed: ID: 4101743088 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 2.55
+2025-09-08 20:17:22,960 [websockets.py:on_close()] - Websocket Closed: ID: 4101746184 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 2.54
+2025-09-08 20:17:32,798 [application.py:log_request()] - 101 GET /websocket (192.168.1.5) [_TRUSTED_USER_] 4.72ms
+2025-09-08 20:17:32,798 [websockets.py:open()] - Websocket Opened: ID: 4116773712, Proxied: True, User Agent: BBL-Slicer/v01.10.01.50 (dark) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.14
+2025-09-08 20:17:32,888 [websockets.py:_handle_identify()] - Websocket 4116773712 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2025-09-08 20:17:32,931 [application.py:log_request()] - 101 GET /websocket?token=7EMGOJN5IIJRT3LBIRBXKR5XCGP6HEBD (192.168.1.5) [_TRUSTED_USER_] 2.93ms
+2025-09-08 20:17:32,932 [websockets.py:open()] - Websocket Opened: ID: 4101779760, Proxied: False, User Agent: BBL-Slicer/v01.10.01.50 (dark) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.14
+2025-09-08 20:17:32,938 [websockets.py:_handle_identify()] - Websocket 4101779760 Client Identified - Name: fluidd, Version: 1.34.4-564242b, Type: web
+2025-09-08 20:17:32,938 [file_manager.py:get_file_list()] - Updating File List <config>...
+2025-09-08 20:17:34,177 [websockets.py:on_close()] - Websocket Closed: ID: 4101779760 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 1.25
+2025-09-08 20:17:34,180 [websockets.py:on_close()] - Websocket Closed: ID: 4116773712 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 1.39
+2025-09-08 20:17:34,307 [application.py:log_request()] - 101 GET /websocket (192.168.1.5) [_TRUSTED_USER_] 3.93ms
+2025-09-08 20:17:34,309 [websockets.py:open()] - Websocket Opened: ID: 4101670512, Proxied: True, User Agent: BBL-Slicer/v01.10.01.50 (dark) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.14
+2025-09-08 20:17:34,319 [websockets.py:_handle_identify()] - Websocket 4101670512 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2025-09-08 20:17:34,349 [application.py:log_request()] - 101 GET /websocket?token=ABGKB5KW2HU57T6GYNU3AGQJZ6HBCHFH (192.168.1.5) [_TRUSTED_USER_] 2.71ms
+2025-09-08 20:17:34,349 [websockets.py:open()] - Websocket Opened: ID: 4082875648, Proxied: False, User Agent: BBL-Slicer/v01.10.01.50 (dark) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.14
+2025-09-08 20:17:34,354 [websockets.py:_handle_identify()] - Websocket 4082875648 Client Identified - Name: fluidd, Version: 1.34.4-564242b, Type: web
+2025-09-08 20:17:34,355 [file_manager.py:get_file_list()] - Updating File List <config>...
+2025-09-08 20:17:36,657 [websockets.py:on_close()] - Websocket Closed: ID: 4082875648 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 2.31
+2025-09-08 20:17:36,659 [websockets.py:on_close()] - Websocket Closed: ID: 4101670512 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 2.35
+2025-09-08 20:18:30,040 [application.py:log_request()] - 101 GET /websocket (192.168.1.5) [_TRUSTED_USER_] 3.78ms
+2025-09-08 20:18:30,040 [websockets.py:open()] - Websocket Opened: ID: 4112816496, Proxied: True, User Agent: BBL-Slicer/v01.10.01.50 (dark) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.14
+2025-09-08 20:18:30,049 [websockets.py:_handle_identify()] - Websocket 4112816496 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2025-09-08 20:18:30,079 [application.py:log_request()] - 101 GET /websocket?token=MMZXYEAFJRE6YAFLOA3GP3YWVXQ2NMB2 (192.168.1.5) [_TRUSTED_USER_] 2.75ms
+2025-09-08 20:18:30,080 [websockets.py:open()] - Websocket Opened: ID: 4112816112, Proxied: False, User Agent: BBL-Slicer/v01.10.01.50 (dark) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.14
+2025-09-08 20:18:30,084 [websockets.py:_handle_identify()] - Websocket 4112816112 Client Identified - Name: fluidd, Version: 1.34.4-564242b, Type: web
+2025-09-08 20:18:30,085 [file_manager.py:get_file_list()] - Updating File List <config>...
