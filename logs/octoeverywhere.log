@@ -15310,3 +15310,15 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2025-09-08 19:37:56,584 - INFO - NotificationsHandler successfully sent 'progress'
 2025-09-08 19:42:14,928 - INFO - NotificationsHandler successfully sent 'progress'
 2025-09-08 19:46:25,021 - INFO - NotificationsHandler successfully sent 'progress'
+2025-09-08 19:50:30,748 - INFO - Starting FinalSnap
+2025-09-08 19:51:50,821 - INFO - Gadget has stopped watching!
+2025-09-08 19:51:50,823 - INFO - RepeatTimer thread exit
+2025-09-08 19:51:50,825 - INFO - RepeatTimer thread exit
+2025-09-08 19:51:52,332 - INFO - NotificationsHandler successfully sent 'paused'
+2025-09-08 19:52:25,166 - INFO - Bed cooldown watcher starting
+2025-09-08 19:52:25,676 - INFO - Stopping final snap and using snapshot from ~9.0 sec ago, index slot 5 / 20
+2025-09-08 19:52:25,684 - INFO - RepeatTimer thread exit
+2025-09-08 19:52:26,291 - INFO - NotificationsHandler successfully sent 'done'
+2025-09-08 19:52:30,440 - INFO - Bed cooldown watcher, bed is cooled down, but it was already cool on the first read, so we won't notify.
+2025-09-08 19:52:30,441 - INFO - Bed cooldown watcher stopped.
+2025-09-08 19:52:30,442 - INFO - RepeatTimer thread exit
