@@ -1,0 +1,21 @@
+2025-09-06 11:49:39,267     ERROR  obico.utils - 
+Traceback (most recent call last):
+  File "/home/sonic/moonraker-obico/moonraker_obico/server_conn.py", line 84, in start
+    self.ss.send(raw, as_binary=as_binary)
+  File "/home/sonic/moonraker-obico/moonraker_obico/ws.py", line 84, in send
+    self.ws.send(data)
+  File "/home/sonic/moonraker-obico-env/lib/python3.9/site-packages/websocket/_app.py", line 189, in send
+    if not self.sock or self.sock.send(data, opcode) == 0:
+  File "/home/sonic/moonraker-obico-env/lib/python3.9/site-packages/websocket/_core.py", line 283, in send
+    return self.send_frame(frame)
+  File "/home/sonic/moonraker-obico-env/lib/python3.9/site-packages/websocket/_core.py", line 311, in send_frame
+    l = self._send(data)
+  File "/home/sonic/moonraker-obico-env/lib/python3.9/site-packages/websocket/_core.py", line 515, in _send
+    return send(self.sock, data)
+  File "/home/sonic/moonraker-obico-env/lib/python3.9/site-packages/websocket/_socket.py", line 173, in send
+    return _send()
+  File "/home/sonic/moonraker-obico-env/lib/python3.9/site-packages/websocket/_socket.py", line 150, in _send
+    return sock.send(data)
+  File "/usr/lib/python3.9/ssl.py", line 1173, in send
+    return self._sslobj.write(data)
+TimeoutError: [Errno 110] Connection timed out
