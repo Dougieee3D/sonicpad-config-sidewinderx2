@@ -438,3 +438,96 @@ Klipper Version: v0.13.0-252-g68b67a16d
 2025-09-09 00:20:22,214 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
 2025-09-09 00:20:35,958 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
 2025-09-09 00:20:35,958 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:20:49,562 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:20:49,563 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:21:03,150 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:21:03,150 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:21:16,832 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:21:16,832 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:21:30,446 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:21:30,446 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:21:43,009 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:21:43,009 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:21:55,666 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:21:55,666 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:22:08,178 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:22:08,179 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:22:17,511 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: server.database.get_item, Code: -32601, Message: Key 'apps' in namespace 'octoapp' not found
+2025-09-09 00:22:19,947 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:22:19,948 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:22:31,824 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:22:31,824 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:22:42,835 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:22:42,835 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:22:53,913 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:22:53,914 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:22:55,153 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: server.database.get_item, Code: -32601, Message: Key 'apps' in namespace 'octoapp' not found
+2025-09-09 00:23:04,764 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:23:04,764 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:23:15,606 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:23:15,607 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:23:26,497 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:23:26,497 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:23:37,304 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:23:37,305 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:23:48,177 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:23:48,177 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:24:01,804 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:24:01,805 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:24:16,111 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:24:16,111 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:24:33,033 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:24:33,033 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:24:46,155 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: server.database.get_item, Code: -32601, Message: Key 'apps' in namespace 'octoapp' not found
+2025-09-09 00:24:50,108 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:24:50,108 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:25:07,284 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:25:07,285 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:25:23,386 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:25:23,386 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:25:40,317 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:25:40,318 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:25:56,169 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:25:56,169 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:26:12,668 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:26:12,668 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:26:29,421 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:26:29,422 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:26:45,619 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:26:45,619 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:27:01,118 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:27:01,118 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:27:50,312 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:27:50,313 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:28:14,776 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:28:14,777 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:28:36,790 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:28:36,790 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:28:58,999 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:28:58,999 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:29:08,288 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: server.database.get_item, Code: -32601, Message: Key 'apps' in namespace 'octoapp' not found
+2025-09-09 00:29:21,036 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:29:21,037 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:29:31,681 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:29:31,681 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:29:41,529 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:29:41,529 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:29:52,110 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:29:52,110 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:30:01,441 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:30:01,441 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:30:10,443 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:30:10,444 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:30:19,340 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:30:19,340 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:30:27,757 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:30:27,757 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:30:29,333 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoapp.': HTTP 404: Not Found
+2025-09-09 00:30:37,275 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:30:37,276 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:30:47,925 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:30:47,925 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:30:58,732 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:30:58,732 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg
+2025-09-09 00:31:09,646 [shell_command.py:_check_proc_success()] - Command (wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg) exited with return code 1
+2025-09-09 00:31:09,646 [timelapse.py:newframe()] - getting newframe failed: wget http://192.168.1.14:8081/snapshot -O /home/sonic/printer_data/timelapse/frames/frame000019.jpg

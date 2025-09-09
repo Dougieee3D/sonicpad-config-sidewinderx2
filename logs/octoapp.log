@@ -4751,3 +4751,23 @@ INFO     | 2025-09-09 00:19:43,932 | CLIENT                   | Sending progress
 INFO     | 2025-09-09 00:19:43,932 | CLIENT/SENDER            | Preparing notification for progress
 INFO     | 2025-09-09 00:19:43,933 | CLIENT/SENDER            | Finding targets for event=progress
 ERROR    | 2025-09-09 00:19:43,941 | DATABASE                 | No apps set
+INFO     | 2025-09-09 00:22:17,503 | CLIENT                   | Sending progress ({'print_id': 'ac33a73dc8b84265a445573751e9539d', 'file_name': 'result - 2025-07-25T081619.603_0.2mm_PLA_Generic Klipper Printer_4h58m.gcode', 'file_path': 'result - 2025-07-25T081619.603_0.2mm_PLA_Generic Klipper Printer_4h58m.gcode', 'FileSizeKb': '42430', 'FilamentUsageMm': '25517', 'FilamentWeightMg': '0', 'Event': 'progress', 'time_remaining_sec': '1853', 'CurrentLayer': '548', 'TotalLayers': '650', 'progress_percent': '94', 'duration_sec': '14363.482329368591'})
+INFO     | 2025-09-09 00:22:17,504 | CLIENT/SENDER            | Preparing notification for progress
+INFO     | 2025-09-09 00:22:17,506 | CLIENT/SENDER            | Finding targets for event=progress
+ERROR    | 2025-09-09 00:22:17,514 | DATABASE                 | No apps set
+INFO     | 2025-09-09 00:22:55,144 | CLIENT                   | Sending timerprogress ({'HoursCount': '4', 'print_id': 'ac33a73dc8b84265a445573751e9539d', 'file_name': 'result - 2025-07-25T081619.603_0.2mm_PLA_Generic Klipper Printer_4h58m.gcode', 'file_path': 'result - 2025-07-25T081619.603_0.2mm_PLA_Generic Klipper Printer_4h58m.gcode', 'FileSizeKb': '42430', 'FilamentUsageMm': '25517', 'FilamentWeightMg': '0', 'Event': 'timerprogress', 'time_remaining_sec': '1813', 'CurrentLayer': '548', 'TotalLayers': '650', 'progress_percent': '94', 'duration_sec': '14401.123510360718'})
+INFO     | 2025-09-09 00:22:55,148 | CLIENT/SENDER            | Preparing notification for timerprogress
+INFO     | 2025-09-09 00:22:55,149 | CLIENT/SENDER            | Finding targets for event=timerprogress
+ERROR    | 2025-09-09 00:22:55,155 | DATABASE                 | No apps set
+INFO     | 2025-09-09 00:23:45,046 | DATABASE                 | Updating presence
+INFO     | 2025-09-09 00:24:43,092 | DATABASE                 | Updating presence
+INFO     | 2025-09-09 00:24:46,148 | CLIENT                   | Sending progress ({'print_id': 'ac33a73dc8b84265a445573751e9539d', 'file_name': 'result - 2025-07-25T081619.603_0.2mm_PLA_Generic Klipper Printer_4h58m.gcode', 'file_path': 'result - 2025-07-25T081619.603_0.2mm_PLA_Generic Klipper Printer_4h58m.gcode', 'FileSizeKb': '42430', 'FilamentUsageMm': '25517', 'FilamentWeightMg': '0', 'Event': 'progress', 'time_remaining_sec': '1699', 'CurrentLayer': '560', 'TotalLayers': '650', 'progress_percent': '95', 'duration_sec': '14512.127823591232'})
+INFO     | 2025-09-09 00:24:46,149 | CLIENT/SENDER            | Preparing notification for progress
+INFO     | 2025-09-09 00:24:46,150 | CLIENT/SENDER            | Finding targets for event=progress
+ERROR    | 2025-09-09 00:24:46,157 | DATABASE                 | No apps set
+INFO     | 2025-09-09 00:28:45,091 | DATABASE                 | Updating presence
+INFO     | 2025-09-09 00:29:08,280 | CLIENT                   | Sending progress ({'print_id': 'ac33a73dc8b84265a445573751e9539d', 'file_name': 'result - 2025-07-25T081619.603_0.2mm_PLA_Generic Klipper Printer_4h58m.gcode', 'file_path': 'result - 2025-07-25T081619.603_0.2mm_PLA_Generic Klipper Printer_4h58m.gcode', 'FileSizeKb': '42430', 'FilamentUsageMm': '25517', 'FilamentWeightMg': '0', 'Event': 'progress', 'time_remaining_sec': '1474', 'CurrentLayer': '569', 'TotalLayers': '650', 'progress_percent': '96', 'duration_sec': '14774.259851932526'})
+INFO     | 2025-09-09 00:29:08,281 | CLIENT/SENDER            | Preparing notification for progress
+INFO     | 2025-09-09 00:29:08,282 | CLIENT/SENDER            | Finding targets for event=progress
+ERROR    | 2025-09-09 00:29:08,289 | DATABASE                 | No apps set
+INFO     | 2025-09-09 00:29:43,196 | DATABASE                 | Updating presence
