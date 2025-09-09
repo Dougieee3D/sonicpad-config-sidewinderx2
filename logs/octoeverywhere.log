@@ -15380,3 +15380,15 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2025-09-09 00:11:51,304 - INFO - NotificationsHandler successfully sent 'progress'
 2025-09-09 00:22:55,539 - INFO - NotificationsHandler successfully sent 'timerprogress'
 2025-09-09 00:23:25,280 - INFO - Kicking the webcam setting read thread due to a request. Forced: False, NeedAutoSettings: False, TimeSinceLastWake: 3608.187213420868 sec.
+2025-09-09 00:43:33,336 - INFO - Starting FinalSnap
+2025-09-09 00:45:15,242 - INFO - Gadget has stopped watching!
+2025-09-09 00:45:15,244 - INFO - RepeatTimer thread exit
+2025-09-09 00:45:15,243 - INFO - RepeatTimer thread exit
+2025-09-09 00:45:15,488 - INFO - Bed cooldown watcher starting
+2025-09-09 00:45:15,992 - INFO - Stopping final snap and using snapshot from ~9.0 sec ago, index slot 5 / 20
+2025-09-09 00:45:15,993 - INFO - RepeatTimer thread exit
+2025-09-09 00:45:16,245 - INFO - NotificationsHandler successfully sent 'paused'
+2025-09-09 00:45:17,058 - INFO - NotificationsHandler successfully sent 'done'
+2025-09-09 00:45:20,504 - INFO - Bed cooldown watcher, bed is cooled down, but it was already cool on the first read, so we won't notify.
+2025-09-09 00:45:20,505 - INFO - Bed cooldown watcher stopped.
+2025-09-09 00:45:20,505 - INFO - RepeatTimer thread exit

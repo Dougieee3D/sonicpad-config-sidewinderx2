@@ -4787,3 +4787,21 @@ INFO     | 2025-09-09 00:40:46,437 | CLIENT                   | Sending progress
 INFO     | 2025-09-09 00:40:46,437 | CLIENT/SENDER            | Preparing notification for progress
 INFO     | 2025-09-09 00:40:46,438 | CLIENT/SENDER            | Finding targets for event=progress
 ERROR    | 2025-09-09 00:40:46,445 | DATABASE                 | No apps set
+INFO     | 2025-09-09 00:43:34,148 | CLIENT/SENDER            | Config still valid
+INFO     | 2025-09-09 00:43:34,918 | CLIENT/SENDER            | OctoApp loaded config: {'updatePercentModulus': 5, 'highPrecisionRangeStart': 5, 'highPrecisionRangeEnd': 5, 'sendNotificationUrl': 'https://europe-west1-octoapp-4e438.cloudfunctions.net/sendNotificationV2', 'minIntervalSecs': 300}
+INFO     | 2025-09-09 00:43:45,450 | DATABASE                 | Updating presence
+INFO     | 2025-09-09 00:44:43,499 | DATABASE                 | Updating presence
+INFO     | 2025-09-09 00:45:15,238 | CLIENT                   | Delaying pause for 3 seconds
+INFO     | 2025-09-09 00:45:15,241 | CLIENT                   | RepeatTimer thread exit
+INFO     | 2025-09-09 00:45:15,527 | CLIENT                   | Bed cooldown watcher starting
+INFO     | 2025-09-09 00:45:15,993 | CLIENT                   | Sending done ({'print_id': 'ac33a73dc8b84265a445573751e9539d', 'file_name': 'result - 2025-07-25T081619.603_0.2mm_PLA_Generic Klipper Printer_4h58m.gcode', 'file_path': 'result - 2025-07-25T081619.603_0.2mm_PLA_Generic Klipper Printer_4h58m.gcode', 'FileSizeKb': '42430', 'FilamentUsageMm': '25517', 'FilamentWeightMg': '0', 'Event': 'done', 'time_remaining_sec': '775', 'CurrentLayer': '650', 'TotalLayers': '650', 'progress_percent': '99', 'duration_sec': '15741.972122430801'})
+INFO     | 2025-09-09 00:45:15,995 | CLIENT/SENDER            | Preparing notification for done
+INFO     | 2025-09-09 00:45:15,997 | CLIENT/SENDER            | Finding targets for event=done
+ERROR    | 2025-09-09 00:45:16,014 | DATABASE                 | No apps set
+INFO     | 2025-09-09 00:45:16,017 | PRINT                    | Removing all print infos
+INFO     | 2025-09-09 00:45:18,239 | CLIENT                   | Delayed pause was stopped, dropping
+INFO     | 2025-09-09 00:45:20,758 | CLIENT                   | Bed cooldown watcher, bed is cooled down, but it was already cool on the first read, so we won't notify.
+INFO     | 2025-09-09 00:45:20,758 | CLIENT                   | Bed cooldown watcher stopped.
+INFO     | 2025-09-09 00:45:20,759 | CLIENT                   | RepeatTimer thread exit
+INFO     | 2025-09-09 00:48:45,566 | DATABASE                 | Updating presence
+INFO     | 2025-09-09 00:49:43,620 | DATABASE                 | Updating presence

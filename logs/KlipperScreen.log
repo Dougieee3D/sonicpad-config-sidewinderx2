@@ -23341,3 +23341,18 @@ machine.shell_command' detected in section [authorization].  This may be an opti
 2025-09-08 20:22:54,351 [job_status.py:_update_file_metadata()] - Update Metadata. File: result - 2025-07-25T081619.603_0.2mm_PLA_Generic Klipper Printer_4h58m.gcode Size: 43449261
 2025-09-08 20:22:54,421 [screen.py:attach_panel()] - Current panel hierarchy: job_status > job_status
 2025-09-08 20:27:54,795 [screensaver.py:show()] - Showing Screensaver
+2025-09-09 00:45:14,990 [printer.py:change_state()] - Changing state from 'printing' to 'paused'
+2025-09-09 00:45:14,990 [printer.py:change_state()] - Adding callback for state: paused
+2025-09-09 00:45:14,998 [job_status.py:set_state()] - Changing job_status state from 'printing' to 'paused'
+2025-09-09 00:45:15,009 [screensaver.py:close()] - Closing Screensaver
+2025-09-09 00:45:15,017 [screen.py:wake_screen()] - Screen wake up
+2025-09-09 00:45:15,120 [screen.py:set_dpms_timeout()] - DPMS on :0 set to: 300
+2025-09-09 00:45:15,121 [screen.py:set_screenblanking_timeout()] - Blanking timeout: 300 DPMS:True
+2025-09-09 00:45:15,121 [screen.py:show_panel()] - Panel is already is in view
+2025-09-09 00:45:15,124 [screen.py:show_panel()] - Reinitializing panel extrude
+2025-09-09 00:45:15,174 [screen.py:attach_panel()] - Current panel hierarchy: job_status > job_status > extrude
+2025-09-09 00:45:15,489 [printer.py:change_state()] - Changing state from 'paused' to 'ready'
+2025-09-09 00:45:15,490 [printer.py:change_state()] - Adding callback for state: ready
+2025-09-09 00:45:15,607 [screen.py:set_dpms_timeout()] - DPMS on :0 set to: 300
+2025-09-09 00:45:15,607 [screen.py:set_screenblanking_timeout()] - Blanking timeout: 300 DPMS:True
+2025-09-09 00:50:15,795 [screensaver.py:show()] - Showing Screensaver
