@@ -5137,3 +5137,9 @@ INFO     | 2025-09-09 13:29:02,197 | DATABASE                 | Updating presenc
 INFO     | 2025-09-09 13:29:58,843 | DATABASE                 | Updating presence
 INFO     | 2025-09-09 13:34:02,311 | DATABASE                 | Updating presence
 INFO     | 2025-09-09 13:34:58,916 | DATABASE                 | Updating presence
+INFO     | 2025-09-09 13:39:02,411 | DATABASE                 | Updating presence
+INFO     | 2025-09-09 13:39:59,028 | DATABASE                 | Updating presence
+INFO     | 2025-09-09 13:43:49,635 | CLIENT/SENDER            | Config still valid
+INFO     | 2025-09-09 13:43:50,488 | CLIENT/SENDER            | OctoApp loaded config: {'updatePercentModulus': 5, 'highPrecisionRangeStart': 5, 'highPrecisionRangeEnd': 5, 'sendNotificationUrl': 'https://europe-west1-octoapp-4e438.cloudfunctions.net/sendNotificationV2', 'minIntervalSecs': 300}
+INFO     | 2025-09-09 13:44:02,513 | DATABASE                 | Updating presence
+INFO     | 2025-09-09 13:44:59,151 | DATABASE                 | Updating presence
