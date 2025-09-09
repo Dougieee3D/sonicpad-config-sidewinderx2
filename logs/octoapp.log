@@ -4954,3 +4954,10 @@ INFO     | 2025-09-09 06:28:52,906 | DATABASE                 | Updating presenc
 INFO     | 2025-09-09 06:29:50,511 | DATABASE                 | Updating presence
 INFO     | 2025-09-09 06:33:53,027 | DATABASE                 | Updating presence
 INFO     | 2025-09-09 06:34:50,591 | DATABASE                 | Updating presence
+INFO     | 2025-09-09 06:38:53,110 | DATABASE                 | Updating presence
+INFO     | 2025-09-09 06:39:50,713 | DATABASE                 | Updating presence
+INFO     | 2025-09-09 06:43:44,524 | CLIENT/SENDER            | Config still valid
+INFO     | 2025-09-09 06:43:45,187 | CLIENT/SENDER            | OctoApp loaded config: {'updatePercentModulus': 5, 'highPrecisionRangeStart': 5, 'highPrecisionRangeEnd': 5, 'sendNotificationUrl': 'https://europe-west1-octoapp-4e438.cloudfunctions.net/sendNotificationV2', 'minIntervalSecs': 300}
+INFO     | 2025-09-09 06:43:53,253 | DATABASE                 | Updating presence
+INFO     | 2025-09-09 06:44:50,831 | DATABASE                 | Updating presence
+INFO     | 2025-09-09 06:48:53,374 | DATABASE                 | Updating presence
