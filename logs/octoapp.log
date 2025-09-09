@@ -4822,3 +4822,10 @@ INFO     | 2025-09-09 01:24:44,314 | DATABASE                 | Updating presenc
 INFO     | 2025-09-09 01:28:46,356 | DATABASE                 | Updating presence
 INFO     | 2025-09-09 01:29:44,435 | DATABASE                 | Updating presence
 INFO     | 2025-09-09 01:33:46,475 | DATABASE                 | Updating presence
+INFO     | 2025-09-09 01:34:44,547 | DATABASE                 | Updating presence
+INFO     | 2025-09-09 01:38:46,592 | DATABASE                 | Updating presence
+INFO     | 2025-09-09 01:39:44,664 | DATABASE                 | Updating presence
+INFO     | 2025-09-09 01:43:34,985 | CLIENT/SENDER            | Config still valid
+INFO     | 2025-09-09 01:43:35,545 | CLIENT/SENDER            | OctoApp loaded config: {'updatePercentModulus': 5, 'highPrecisionRangeStart': 5, 'highPrecisionRangeEnd': 5, 'sendNotificationUrl': 'https://europe-west1-octoapp-4e438.cloudfunctions.net/sendNotificationV2', 'minIntervalSecs': 300}
+INFO     | 2025-09-09 01:43:46,692 | DATABASE                 | Updating presence
+INFO     | 2025-09-09 01:44:44,783 | DATABASE                 | Updating presence
