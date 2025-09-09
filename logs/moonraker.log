@@ -700,3 +700,4 @@ Klipper Version: v0.13.0-252-g68b67a16d
 2025-09-09 01:42:35,458 [file_manager.py:get_file_list()] - Updating File List <config>...
 2025-09-09 01:42:39,646 [websockets.py:on_close()] - Websocket Closed: ID: 4101260480 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 5.98
 2025-09-09 01:42:39,647 [websockets.py:on_close()] - Websocket Closed: ID: 4112815320 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 4.20
+2025-09-09 02:00:29,336 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoapp.': HTTP 404: Not Found
