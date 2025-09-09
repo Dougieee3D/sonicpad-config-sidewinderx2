@@ -5060,3 +5060,9 @@ INFO     | 2025-09-09 10:33:58,413 | DATABASE                 | Updating presenc
 INFO     | 2025-09-09 10:34:55,467 | DATABASE                 | Updating presence
 INFO     | 2025-09-09 10:38:58,534 | DATABASE                 | Updating presence
 INFO     | 2025-09-09 10:39:55,579 | DATABASE                 | Updating presence
+INFO     | 2025-09-09 10:43:47,273 | CLIENT/SENDER            | Config still valid
+INFO     | 2025-09-09 10:43:48,016 | CLIENT/SENDER            | OctoApp loaded config: {'updatePercentModulus': 5, 'highPrecisionRangeStart': 5, 'highPrecisionRangeEnd': 5, 'sendNotificationUrl': 'https://europe-west1-octoapp-4e438.cloudfunctions.net/sendNotificationV2', 'minIntervalSecs': 300}
+INFO     | 2025-09-09 10:43:58,640 | DATABASE                 | Updating presence
+INFO     | 2025-09-09 10:44:55,672 | DATABASE                 | Updating presence
+INFO     | 2025-09-09 10:48:58,754 | DATABASE                 | Updating presence
+INFO     | 2025-09-09 10:49:55,791 | DATABASE                 | Updating presence
