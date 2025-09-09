@@ -713,3 +713,4 @@ Klipper Version: v0.13.0-252-g68b67a16d
 2025-09-09 06:00:29,023 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoapp.': HTTP 404: Not Found
 2025-09-09 06:30:28,973 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoapp.': HTTP 404: Not Found
 2025-09-09 07:00:29,025 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoapp.': HTTP 404: Not Found
+2025-09-09 07:30:28,952 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoapp.': HTTP 404: Not Found
